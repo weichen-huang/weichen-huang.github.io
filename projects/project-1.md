@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/COVID.png
 title: COVID-Efficientnet
-permalink: projects/micromouse
+permalink: projects/covidEfficientnet
 # All dates must be YYYY-MM-DD format!
 date: 2020-05-01
 labels:
