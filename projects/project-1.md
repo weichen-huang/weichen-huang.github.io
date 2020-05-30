@@ -5,7 +5,7 @@ image: images/COVID.png
 title: COVID-Efficientnet
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2020-05-01
 labels:
   - AI
   - MachineLearning
