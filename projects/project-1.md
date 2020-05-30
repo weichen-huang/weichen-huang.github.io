@@ -10,7 +10,7 @@ labels:
   - AI
   - MachineLearning
   - COVID
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: I implemented Efficientnet for COVID-19 detection using x-ray imaging.
 ---
 
 # COVID-Efficientnet &rarr; a Pytorch Upgrade of [COVID-Next](https://github.com/velebit-ai/COVID-Next-Pytorch) and COVID-Net
