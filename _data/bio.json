@@ -6,7 +6,7 @@
     "email": "weichen.huang.2020@gmail.com",
     "phone": "123-456-7890",
     "website": "https://weichen-huang.github.io",
-    "summary": "Interested in AI & ML",
+    "summary": "Innovating in Artificial Intelligence and Machine Learning. Also a strong interest in Computational Neuroscience",
     "location": {
       "address": "",
       "postalCode": "",
@@ -18,12 +18,12 @@
       {
         "network": "github",
         "username": "weichen-huang",
-        "url": "http://github.com/changeme"
+        "url": "http://github.com/weichen-huang"
       },
       {
         "network": "linkedin",
         "username": "weichen-huang",
-        "url": "http://linkedin.com/in/changeme"
+        "url": "about:blank"
       }
     ]
   },
