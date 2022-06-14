@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Weichen Huang",
-    "label": "Student",
+    "label": "Numbers enthusiast",
     "picture": "https://weichen-huang.github.io/images/dog.png",
     "email": "weichen.huang.2020@gmail.com",
-    "phone": "123-456-7890",
+    "phone": "Call me maybe ;)",
     "website": "https://weichen-huang.github.io",
-    "summary": "Innovating in Artificial Intelligence and Machine Learning. Also a strong interest in Computational Neuroscience",
+    "summary": "Competitive Coder, Mathematician, High School Student",
     "location": {
-      "address": "",
-      "postalCode": "",
+      "address": "Somewhere over the rainbow",
+      "postalCode": "ABCDEFG",
       "city": "Dublin",
       "countryCode": "Ireland",
       "region": "Dublin"
@@ -23,7 +23,7 @@
       {
         "network": "linkedin",
         "username": "weichen-huang",
-        "url": "https://weichen-huang.github.io/"
+        "url": "https://www.linkedin.com/in/weichen-huang-a17393234/"
       }
     ]
   },
@@ -46,24 +46,53 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "level": "",
+      "name": "OOP Languages",
+      "level": "1e18",
       "keywords": [
         "Python",
         "Java",
-        "Javascript"
+        "JS",
+        "C++"
       ]
     },
+    {
+      "name": "Hackerrank",
+      "level": "Gold",
+      "keywords": [
+        "Problem solving",
+        "Python",
+        "C++"
+      ]
+    },
+    {
+      "name": "Codeforces",
+      "level": "1200+",
+      "keywords": [
+        "Greedy",
+        "Constructive algorithms",
+        "DP",
+        "Graph",
+        "MST",
+        "Number theory",
+        "Combinatorics"
+      ]
+    }
+    
   ],
   "education": [
     {
-      "institution": "",
-      "area": "",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "",
-      "gpa": "",
+      "institution": "SAC",
+      "area": "Dublin",
+      "studyType": "High school",
+      "startDate": "2019",
+      "endDate": "2025",
+      "gpa": "4.0",
       "courses": [
+        "CS",
+        "Math",
+        "Engineering".
+        "English",
+        "French"
       ]
     }
   ],
@@ -95,16 +124,40 @@
   ],
   "awards": [
     {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
+      "title": "BTYSTE 2021",
+      "date": "2021",
+      "awarder": "Young Scientist",
+      "summary": "COVID Detection using Efficientnets"
+    },
+    {
+      "title": "BTYSTE 2022",
+      "date": "2022",
+      "awarder": "Young Scientist",
+      "summary": "Extreme weather prediction"
+    },
+    {
+      "title": "AIPO Finalist",
+      "date": "2022",
+      "awarder": "AIPO",
+      "summary": "Top 10 competitive programmers in Ireland. IOI Selection team"
+    },
+    {
+      "title": "IrMO Finalist",
+      "date": "2022",
+      "awarder": "Irish Math Olympiad",
+      "summary": "Finalist in Math Olympiad"
+    },
+    {
+      "title": "SAC Academic Award",
+      "date": "2021",
+      "awarder": "SAC",
+      "summary": "Exceptionally high grades"
     }
   ],
   "references": [
     {
-      "name": "Available upon request",
-      "reference": ""
+      "name": "Please give me recommendation letters :(",
+      "reference": "(I'm desperate here)"
     }
   ]
 }
