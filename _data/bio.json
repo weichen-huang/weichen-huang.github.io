@@ -98,11 +98,11 @@
   ],
   "work": [
     {
-      "company": "",
-      "position": "",
+      "company": "Applying for work experience",
+      "position": "Lab volunteer, lecturer",
       "website": "",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2022",
+      "endDate": "2023",
       "summary": "",
       "highlights": [
         ""
@@ -111,14 +111,16 @@
   ],
   "volunteer": [
     {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "BT Bootcamp",
+      "website": "https://btyoungscientist.com/",
+      "position": "Team member",
+      "startDate": "2022",
+      "endDate": "2022",
+      "summary": "Collaborated with a team to create a product",
       "highlights": [
-        ""
+        "Learned to create a product to suit a market",
+        "Various pitch strategies to sell product",
+        "Prototyping and presenting to judges"
       ]
     }
   ],
