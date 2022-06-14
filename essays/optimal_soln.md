@@ -1,16 +1,17 @@
 ---
 layout: essay
 type: essay
-title: Characteristics the optimal solution: a technique for finding observations
+title: Characteristics the optimal solution; a technique for finding observations
 permalink: essays/opt_soln
 # All dates must be YYYY-MM-DD format!
 date: 2022-06-14
 labels:
-  - CP
-  - Algorithms
   - Codeforces
-summary: Techniques for problem solving
+  - Problem solving
+  - CP
+summary: Technique for problem solving.
 ---
+
 
 ## Introduction
 
@@ -23,7 +24,7 @@ However, I often find it useful (and others may relate) to state my thoughts exp
 
 In this blog, I will try to explain a technique of thinking that I found recurring and often helpful in facing many problems that may seem daunting to many people at first sight, with an unorganized train of thought. Afterward, I will try to apply this technique to some Codeforces problems I solved that I found considerably challenging to go about when I haven't tried this technique explicitly.
 
-## The technique
+The technique
 
 A lot of the problems we face involve finding an optimal solution of some kind, e.g. find a subsequence that has minimum * something * or find a graph of an array that satisfies some requirements. The main technique is to think as follows:
 
