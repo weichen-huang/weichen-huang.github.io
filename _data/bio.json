@@ -29,18 +29,36 @@
   },
   "interests": [
     {
-      "name": "artificial intelligence",
+      "name": "competitve programming",
       "keywords": [
+        "trees",
+        "queues",
+        "graphs",
+        "greedy algorithms",
+        "graph traversal",
+        "graph search",
+        "dynamic programming",
+        "constructive algorithms",
+        "misc"
       ]
     }, 
     {
       "name": "machine learning",
       "keywords": [
+        "deep learning",
+        "ml",
+        "neural networks",
+        "optimization"
       ]
     },
     {
-      "name": "computational neuroscience",
+      "name": "math",
       "keywords": [
+        "number theory",
+        "combinatorics",
+        "algebra",
+        "logic",
+        "geometry"
       ]
     }
   ],
