@@ -4,13 +4,13 @@
     "label": "Numbers enthusiast",
     "picture": "https://weichen-huang.github.io/images/quote.png",
     "email": "weichen.huang.2020@gmail.com",
-    "phone": "Call me maybe ;)",
+    "phone": "085-1191-391",
     "website": "https://weichen-huang.github.io",
     "summary": "Competitive Coder, Mathematician, High School Student",
     "location": {
-      "address": "Somewhere over the rainbow",
-      "postalCode": "ABCDEFG",
-      "city": "Dublin",
+      "address": "Blackrock",
+      "postalCode": "",
+      "city": "Dublin city",
       "countryCode": "Ireland",
       "region": "Dublin"
     },
@@ -181,8 +181,8 @@
   ],
   "references": [
     {
-      "name": "Please give me recommendation letters :(",
-      "reference": "(I'm desperate here)"
+      "name": "Yangcheng Huang",
+      "reference": "Competitive coding"
     }
   ]
 }
