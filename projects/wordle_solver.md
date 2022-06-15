@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/wordle.png
-title: SAConvnets
+title: Entropy Solver
 permalink: projects/wordle_solver
 # All dates must be YYYY-MM-DD format!
 date: 2022-04-03
