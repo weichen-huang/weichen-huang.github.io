@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Featured: Perfect numbers
+title: Featured; Perfect numbers
 permalink: essays/perfectnumbers
 # All dates must be YYYY-MM-DD format!
 date: 2022-06-16
