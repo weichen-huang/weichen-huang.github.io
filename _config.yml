@@ -7,7 +7,7 @@ title: Weichen Huang
 url: "https://weichen-huang.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
 baseurl: ""
-
+mathjax: true
 # OPTIONAL CHANGES
 # You might want to change the bio page label to something else, such as CV
 bio-page-label: Bio
@@ -24,6 +24,4 @@ rouge-theme: css/rouge/igorpro
 # YOU NORMALLY NEVER CHANGE THE FOLLOWING
 markdown: kramdown
 include: [_data]
-
-mathjax: true
 
