@@ -2,9 +2,9 @@
 layout: essay
 type: essay
 title: A potpourri of programming and math
-permalink: essays/opt_soln
+permalink: essays/problems
 # All dates must be YYYY-MM-DD format!
-date: 2022-06-14
+date: 2022-06-15
 labels:
   - Codeforces
   - Problem solving
@@ -16,3 +16,5 @@ I have compiled a list of in-depth analysis notes for problems in math and compe
 
 [math](https://weichen-huang.github.io/notes/mathproblems.html)
 [codeforces](https://weichen-huang.github.io/notes/codeforcesproblems.html)
+
+BTW: I will be starting a problem solving series for math and programming soon where I will explain some problems in depth.
