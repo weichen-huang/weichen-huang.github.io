@@ -18,3 +18,5 @@ I have compiled a list of in-depth analysis notes for problems in math and compe
 [codeforces](https://weichen-huang.github.io/notes/codeforcesproblems.html)
 
 BTW: I will be starting a problem solving series for math and programming soon where I will explain some problems in depth.
+
+Update 1 (3 problems) 15 Jun 2022
