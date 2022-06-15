@@ -25,3 +25,5 @@ rouge-theme: css/rouge/igorpro
 markdown: kramdown
 include: [_data]
 
+mathjax: true
+
