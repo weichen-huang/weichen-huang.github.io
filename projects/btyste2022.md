@@ -17,6 +17,7 @@ summary: A novel approach to extreme weather forecasting
 
 [Github](https://github.com/weichen-huang/climatenets)
 [Arxiv](https://arxiv.org/abs/2201.13408)
+[Poster](https://https://weichen-huang.github.io/images/btyste_poster_weichenhuang.pdf)
 
 ## Abstract
 
