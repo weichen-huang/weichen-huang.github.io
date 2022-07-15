@@ -104,7 +104,7 @@
   ],
   "education": [
     {
-      "institution": "SAC",
+      "institution": "St Andrew's College",
       "area": "Dublin",
       "studyType": "High school",
       "startDate": "2019",
@@ -116,6 +116,31 @@
         "Engineering",
         "English",
         "French"
+      ]
+    },
+    {
+      "institution": "University College London",
+      "area": "London (Virtual)",
+      "studyType": "Online summer school",
+      "startDate": "2022",
+      "endDate": "2022",
+      "courses": [
+        "Medical Imaging",
+        "Machine Learning",
+        "Data science",
+        "Project development"
+      ]
+    },
+    {
+      "institution": "Stanford University",
+      "area": "Stanford, California (Virtual)",
+      "studyType": "Online Course",
+      "startDate": "2021",
+      "endDate": "2022",
+      "gpa": "4.0 (https://coursera.org/share/3c6e9b12a967d55e999838272348b09a)",
+      "courses": [
+        "Mathematical Thinking",
+        "Logic"
       ]
     }
   ],
