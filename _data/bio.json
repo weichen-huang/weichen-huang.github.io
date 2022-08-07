@@ -28,7 +28,7 @@
       {
         "network": "code",
         "username": "weichen-huang",
-        "url": "https://codeforces.com/profile/dogydevstorage"
+        "url": "https://codeforces.com/profile/WHg00"
       }
     ]
   },
@@ -85,6 +85,7 @@
       "endDate": "2025",
       "gpa": "4.0",
       "courses": [
+        "Junior Cycle"
       ]
     },
     {
@@ -101,32 +102,21 @@
         "Data-driven disease progression modelling",
         "Surgical video understanding with AI",
         "Conducted project work with a technical lead role:"
-        ""
+        "How old is your brain? Predicting brain age with deep learning",
+        "Utilized Keras and Tensorflow libraries to build deep learning models",
+        "Interacted with different medical imaging datatypes (NIFTI)"
       ]
     },
     {
       "institution": "Stanford University",
-      "area": "Stanford, California (Virtual)",
+      "area": "Stanford, California",
       "studyType": "Online Course",
       "startDate": "2021",
       "endDate": "2022",
       "gpa": "4.0 (https://coursera.org/share/3c6e9b12a967d55e999838272348b09a)",
       "courses": [
         "Mathematical Thinking",
-        "Logic"
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "Applying for work experience",
-      "position": "Lab volunteer, lecturer",
-      "website": "",
-      "startDate": "2022",
-      "endDate": "2023",
-      "summary": "",
-      "highlights": [
-        ""
+        "Logical notation and problem solving",
       ]
     }
   ],
@@ -135,13 +125,28 @@
       "organization": "BT Bootcamp",
       "website": "https://btyoungscientist.com/",
       "position": "Team member",
-      "startDate": "2022",
-      "endDate": "2022",
+      "startDate": "7th March 2022",
+      "endDate": "11th March 2022",
       "summary": "Collaborated with a team to create a product",
       "highlights": [
         "Learned to create a product to suit a market",
         "Various pitch strategies to sell product",
         "Prototyping and presenting to judges"
+      ]
+    }, 
+    {
+      "organization": "University College Cork",
+      "website": "https://www.ucc.ie/en/compsci/",
+      "position": "Student",
+      "startDate": "4th July 2022",
+      "endDate": "9th July 2022",
+      "summary": "Learned advanced algorithms and competed in daily contests",
+      "highlights": [
+        "Algorithmic number theory along with contest problems from Polish Olympiad in Informatics and USACO",
+        "Graph data structures including trees and tries with problems from Codeforces",
+        "Dynamic programming and stochastic dynamic programming",
+        "Methods to answer range queries: Segment tree, sparse table",
+        "Matrix exponentiation"
       ]
     }
   ],
@@ -156,7 +161,7 @@
       "title": "BTYSTE 2022",
       "date": "2022",
       "awarder": "Young Scientist",
-      "summary": "Extreme weather prediction"
+      "summary": "Extreme weather prediction using attention augmented convolutions (https://arxiv.org/abs/2201.13408)"
     },
     {
       "title": "AIPO Finalist",
@@ -171,10 +176,10 @@
       "summary": "Finalist in Math Olympiad"
     },
     {
-      "title": "SAC Academic Award",
+      "title": "St Andrew's College Academic Award",
       "date": "2021",
-      "awarder": "SAC",
-      "summary": "Exceptionally high grades"
+      "awarder": "St Andrew's College",
+      "summary": "Exceptional exam performance"
     }
   ],
   "references": [
