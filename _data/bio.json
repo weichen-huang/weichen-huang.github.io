@@ -36,34 +36,16 @@
     {
       "name": "competitve programming",
       "keywords": [
-        "trees",
-        "queues",
-        "graphs",
-        "greedy algorithms",
-        "graph traversal",
-        "graph search",
-        "dynamic programming",
-        "constructive algorithms",
-        "misc"
       ]
     }, 
     {
       "name": "machine learning",
       "keywords": [
-        "deep learning",
-        "ml",
-        "neural networks",
-        "optimization"
       ]
     },
     {
-      "name": "math",
+      "name": "discrete math",
       "keywords": [
-        "number theory",
-        "combinatorics",
-        "algebra",
-        "logic",
-        "geometry"
       ]
     }
   ],
@@ -74,30 +56,22 @@
       "keywords": [
         "Python",
         "Java",
-        "JS",
+        "C",
         "C++"
       ]
     },
     {
-      "name": "Hackerrank",
+      "name": "Hackerrank: ",
       "level": "Gold",
       "keywords": [
-        "Problem solving",
-        "Python",
-        "C++"
+        "https://www.hackerrank.com/weichenhuang06",
       ]
     },
     {
       "name": "Codeforces",
-      "level": "1200+",
+      "level": "1205",
       "keywords": [
-        "Greedy",
-        "Constructive algorithms",
-        "DP",
-        "Graph",
-        "MST",
-        "Number theory",
-        "Combinatorics"
+        "https://codeforces.com/profile/WHg00",
       ]
     }
     
@@ -111,24 +85,23 @@
       "endDate": "2025",
       "gpa": "4.0",
       "courses": [
-        "CS",
-        "Math",
-        "Engineering",
-        "English",
-        "French"
       ]
     },
     {
       "institution": "University College London",
-      "area": "London (Virtual)",
-      "studyType": "Online summer school",
-      "startDate": "2022",
-      "endDate": "2022",
+      "area": "London",
+      "studyType": "Summer school",
+      "startDate": "11th July 2022",
+      "endDate": "15th July 2022",
       "courses": [
-        "Medical Imaging",
-        "Machine Learning",
-        "Data science",
-        "Project development"
+        "Studied modern medical imaging techniques: PET Imaging, Cardiovascular MRI, Lung Fibrosis Imaging, Tomography",
+        "Gained insight into the application of machine learning in medical imaging:",
+        "Improving hearing care pathways with the use of machine learning",
+        "Computer Vision in Minimally Invasive Surgery",
+        "Data-driven disease progression modelling",
+        "Surgical video understanding with AI",
+        "Conducted project work with a technical lead role:"
+        ""
       ]
     },
     {
