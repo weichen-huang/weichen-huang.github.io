@@ -111,19 +111,12 @@
         "startDate": "2022",
         "endDate": "2022",
         "courses": [
-          "* Studied modern medical imaging techniques:",
-          "     PET Imaging",
-          "     Cardiovascular MRI",
-          "     Lung Fibrosis Imaging",
-          "     Tomography",
-          "* Detailed programme:",
-          "     Improving hearing care pathways with the use of machine learning",
-          "     Computer Vision in Minimally Invasive Surgery",
-          "     Data-driven disease progression modelling",
-          "     Surgical video understanding with AI",
-          "* Project: How old is your brain? Predicting brain age with deep learning",
-          "     Utilized Keras and Tensorflow libraries to build deep learning models",
-          "     Interacted with different medical imaging datatypes (NIFTI)"
+          "(Module) Improving hearing care pathways with the use of machine learning",
+          "(Module) Computer Vision in Minimally Invasive Surgery",
+          "(Module) Data-driven disease progression modelling",
+          "(Module) Surgical video understanding with AI",
+          "(Techniques) PET Imaging, Cardiovascular MRI, Lung Fibrosis Imaging, Tomography",
+          "(Project) How old is your brain? Predicting brain age with deep learning (Utilized Keras and Tensorflow libraries, Interacted with different medical imaging datatypes)"
         ]
       },
       {
@@ -152,23 +145,24 @@
           "Design and Analysis of Algorithms 6046J",
         ]
       },
-      
+      {
+        "institution": "University College Dublin",
+        "area": "Dublin",
+        "studyType": "Junior/Senior Math enrichment",
+        "startDate": "2021",
+        "endDate": "2022",
+        "gpa": "4.0",
+        "courses": [
+          "Puzzles",
+          "Inequalities: AM-GM, Cauchy's inequality",
+          "Number theory: Prime numbers, factorisation, sieve of Eratosthenes",
+          "Enumerative combinatorics: Binomial theorem, factorials",
+          "International Math Olympiad question practice",
+        ]
+      },
         
     ],
     "volunteer": [
-      {
-        "organization": "BT Bootcamp",
-        "website": "https://btyoungscientist.com/",
-        "startDate": "2022",
-        "endDate": "2022",
-        "position": "Student", 
-        "summary": "Collaborated with a team to create a product: A-Ok, an autism communication wristband",
-        "highlights": [
-          "Learned to create a product to suit a market",
-          "Various pitch strategies to sell product",
-          "Prototyping and presenting to judges"
-        ]
-      }, 
       {
         "organization": "IOI Training Camp, University College Cork",
         "website": "https://www.ucc.ie/en/compsci/",
@@ -183,33 +177,62 @@
           "Methods to answer range queries: Segment tree, sparse table",
           "Matrix exponentiation"
         ]
+      },
+      {
+        "organization": "BT Young Scientist Business Bootcamp",
+        "website": "https://btyoungscientist.com/",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Student", 
+        "summary": "Collaborated with a team to create a product: A-Ok, an autism communication wristband",
+        "highlights": [
+          "Learned to create a product to suit a market",
+          "Various pitch strategies to sell product",
+          "Prototyping and presenting to judges"
+        ]
+      },
+      {
+        "organization": "BT Young Scientist Exhibition",
+        "website": "https://btyoungscientist.com/",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Participant", 
+        "summary": "Participated and presented project at BTYSTE Exhibition",
+        "highlights": [
+          "Project title: Extreme weather prediction using attention augmented convolutions",
+          "Report: https://arxiv.org/abs/2201.13408",
+          "Project page: https://weichen-huang.github.io/projects/saconvnets",
+          "Poster: https://weichen-huang.github.io/images/btyste_poster_weichenhuang.pdf",
+          "Code repository: https://github.com/weichen-huang/climatenets",
+        ]
+      },
+      {
+        "organization": "BT Young Scientist Exhibition",
+        "website": "https://btyoungscientist.com/",
+        "startDate": "2021",
+        "endDate": "2021",
+        "position": "Participant", 
+        "summary": "Participated and presented project at BTYSTE Exhibition",
+        "highlights": [
+          "Project title: Using Efficientnets and lung X-ray imaging to detect COVID-19",
+          "Report: https://medium.com/@weichen.huang.2020/covid-efficientnet-covid-19-detection-with-chest-x-ray-images-and-deep-learning-7eaaf25645bf",
+          "Project page: https://weichen-huang.github.io/projects/covidEfficientnet",
+          "Code repository: https://github.com/weichen-huang/COVID-Efficientnet-Pytorch",
+        ]
+      },
+      {
+        "organization": "SciFest",
+        "startDate": "2021",
+        "endDate": "2021",
+        "position": "Participant", 
+        "summary": "Participated in Scifest Competition",
+        "highlights": [
+          "Project title: Plant disease identification using deep learning",
+        ]
       }
+      
     ],
     "awards": [
-      {
-        "title": "BTYSTE 2021 Category 1st place",
-        "date": "2021",
-        "awarder": "BT Young Scientist",
-        "summary": "COVID Detection using Efficientnets"
-      },
-      {
-        "title": "BTYSTE 2022 Category joint 1st place",
-        "date": "2022",
-        "awarder": "BT Young Scientist",
-        "summary": "Extreme weather prediction using attention augmented convolutions (https://arxiv.org/abs/2201.13408)"
-      },
-      {
-        "title": "BTYSTE 2022 Met Eireann Award",
-        "date": "2022",
-        "awarder": "BT Young Scientist, Met Eireann",
-        "summary": "Extreme weather prediction using attention augmented convolutions (https://arxiv.org/abs/2201.13408)"
-      },
-      {
-        "title": "SciFest 2021 Innovator's award",
-        "date": "2021",
-        "awarder": "St Andrew's College",
-        "summary": "Plant disease identification"
-      },
       {
         "title": "AIPO Finalist",
         "date": "2022",
@@ -221,6 +244,27 @@
         "date": "2022",
         "awarder": "Irish Math Olympiad",
         "summary": "Finalist in Math Olympiad"
+      },
+      {
+        "title": "BTYSTE 2022 Category joint 1st place",
+        "date": "2022",
+        "awarder": "BT Young Scientist",
+      },
+      {
+        "title": "BTYSTE 2022 Met Eireann Award",
+        "date": "2022",
+        "awarder": "BT Young Scientist, Met Eireann",
+      },
+      {
+        "title": "BTYSTE 2021 Category 1st place",
+        "date": "2021",
+        "awarder": "BT Young Scientist",
+      },
+      {
+        "title": "SciFest 2021 Innovator's award",
+        "date": "2021",
+        "awarder": "St Andrew's College",
+        "summary": "Plant disease identification"
       },
       {
         "title": "St Andrew's College Academic Award",
