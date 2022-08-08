@@ -92,18 +92,22 @@
         "institution": "University College London",
         "area": "London",
         "studyType": "UCL Medical Image Computing Summer School (MedICSS) (https://medicss.cs.ucl.ac.uk/)",
-        "startDate": "11/7/2022",
-        "endDate": "15/7/2022",
+        "startDate": "2022",
+        "endDate": "2022",
         "courses": [
-          "* Studied modern medical imaging techniques: PET Imaging, Cardiovascular MRI, Lung Fibrosis Imaging, Tomography",
+          "* Studied modern medical imaging techniques:",
+          "     PET Imaging",
+          "     Cardiovascular MRI",
+          "     Lung Fibrosis Imaging",
+          "     Tomography",
           "* Detailed programme:",
-          "Improving hearing care pathways with the use of machine learning",
-          "Computer Vision in Minimally Invasive Surgery",
-          "Data-driven disease progression modelling",
-          "Surgical video understanding with AI",
+          "     Improving hearing care pathways with the use of machine learning",
+          "     Computer Vision in Minimally Invasive Surgery",
+          "     Data-driven disease progression modelling",
+          "     Surgical video understanding with AI",
           "* Project: How old is your brain? Predicting brain age with deep learning",
-          "Utilized Keras and Tensorflow libraries to build deep learning models",
-          "Interacted with different medical imaging datatypes (NIFTI)"
+          "     Utilized Keras and Tensorflow libraries to build deep learning models",
+          "     Interacted with different medical imaging datatypes (NIFTI)"
         ]
       },
       {
@@ -140,6 +144,7 @@
         "website": "https://btyoungscientist.com/",
         "startDate": "7th March 2022",
         "endDate": "11th March 2022",
+        "position": "Student", 
         "summary": "Collaborated with a team to create a product: A-Ok, an autism communication wristband",
         "highlights": [
           "Learned to create a product to suit a market",
@@ -152,6 +157,7 @@
         "website": "https://www.ucc.ie/en/compsci/",
         "startDate": "4th July 2022",
         "endDate": "9th July 2022",
+        "position": "Student", 
         "summary": "Learned advanced algorithms and competed in daily contests",
         "highlights": [
           "Algorithmic number theory along with contest problems from Polish Olympiad in Informatics and USACO",
