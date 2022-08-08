@@ -85,7 +85,23 @@
         "endDate": "2025",
         "gpa": "4.0",
         "courses": [
-          "Junior Cycle"
+          "Junior Cycle",
+          "Transition Year"
+        ]
+      },
+      {
+        "institution": "Art of Problem Solving",
+        "area": "https://virtual.aopsacademy.org/",
+        "studyType": "High School Math Contests",
+        "startDate": "2022",
+        "endDate": "2022",
+        "gpa": "4.0",
+        "courses": [
+          "Algebra (Algebraic Manipulations, polynomials, sequences and series)",
+          "Number theory (modular arithmetic, divisbility theory)",
+          "Combinatorics (fundamental principle of counting, combinations and permutations, probability)",
+          "Advanced Geometry (triangle theorems, circle theorems, polygons, 3D geometry)",
+          "Practice AMC contests"
         ]
       },
       {
@@ -136,6 +152,7 @@
           "Design and Analysis of Algorithms 6046J",
         ]
       },
+      
         
     ],
     "volunteer": [
