@@ -54,14 +54,14 @@
         "name": "OOP Languages",
         "level": "1e18",
         "keywords": [
+          "C++",
           "Python",
           "Java",
           "C",
-          "C++"
         ]
       },
       {
-        "name": "Hackerrank: ",
+        "name": "Hackerrank",
         "level": "Gold",
         "keywords": [
           "https://www.hackerrank.com/weichenhuang06"
@@ -91,18 +91,17 @@
       {
         "institution": "University College London",
         "area": "London",
-        "studyType": "Summer school",
-        "startDate": "11th July 2022",
-        "endDate": "15th July 2022",
+        "studyType": "UCL Medical Image Computing Summer School (MedICSS) (https://medicss.cs.ucl.ac.uk/)",
+        "startDate": "11/7/2022",
+        "endDate": "15/7/2022",
         "courses": [
-          "Studied modern medical imaging techniques: PET Imaging, Cardiovascular MRI, Lung Fibrosis Imaging, Tomography",
-          "Gained insight into the application of machine learning in medical imaging:",
+          "* Studied modern medical imaging techniques: PET Imaging, Cardiovascular MRI, Lung Fibrosis Imaging, Tomography",
+          "* Detailed programme:",
           "Improving hearing care pathways with the use of machine learning",
           "Computer Vision in Minimally Invasive Surgery",
           "Data-driven disease progression modelling",
           "Surgical video understanding with AI",
-          "Conducted project work with a technical lead role:",
-          "How old is your brain? Predicting brain age with deep learning",
+          "* Project: How old is your brain? Predicting brain age with deep learning",
           "Utilized Keras and Tensorflow libraries to build deep learning models",
           "Interacted with different medical imaging datatypes (NIFTI)"
         ]
@@ -111,23 +110,37 @@
         "institution": "Stanford University",
         "area": "Stanford, California",
         "studyType": "Online Course",
-        "startDate": "2021",
-        "endDate": "2022",
+        "startDate": "12/11/2021",
+        "endDate": "1/2/2022",
         "gpa": "4.0 (https://coursera.org/share/3c6e9b12a967d55e999838272348b09a)",
         "courses": [
           "Mathematical Thinking",
           "Logical notation and problem solving"
         ]
-      }
+      },
+      {
+        "institution": "MIT OpenCourseWare",
+        "area": "Cambridge, Massachusetts",
+        "studyType": "Online Course",
+        "startDate": "2021",
+        "endDate": "Ongoing",
+        "gpa": "4.0",
+        "courses": [
+          "Introduction to Algorithms 6.006",
+          "Mathematics for Computer Scinece 6.042J",
+          "Single Variable Calculus 18.01",
+          "Design and Analysis of Algorithms 6046J",
+        ]
+      },
+        
     ],
     "volunteer": [
       {
         "organization": "BT Bootcamp",
         "website": "https://btyoungscientist.com/",
-        "position": "Team member",
         "startDate": "7th March 2022",
         "endDate": "11th March 2022",
-        "summary": "Collaborated with a team to create a product",
+        "summary": "Collaborated with a team to create a product: A-Ok, an autism communication wristband",
         "highlights": [
           "Learned to create a product to suit a market",
           "Various pitch strategies to sell product",
@@ -135,9 +148,8 @@
         ]
       }, 
       {
-        "organization": "University College Cork",
+        "organization": "IOI Training Camp, University College Cork",
         "website": "https://www.ucc.ie/en/compsci/",
-        "position": "Student",
         "startDate": "4th July 2022",
         "endDate": "9th July 2022",
         "summary": "Learned advanced algorithms and competed in daily contests",
@@ -152,16 +164,28 @@
     ],
     "awards": [
       {
-        "title": "BTYSTE 2021",
+        "title": "BTYSTE 2021 Category 1st place",
         "date": "2021",
-        "awarder": "Young Scientist",
+        "awarder": "BT Young Scientist",
         "summary": "COVID Detection using Efficientnets"
       },
       {
-        "title": "BTYSTE 2022",
+        "title": "BTYSTE 2022 Category joint 1st place",
         "date": "2022",
-        "awarder": "Young Scientist",
+        "awarder": "BT Young Scientist",
         "summary": "Extreme weather prediction using attention augmented convolutions (https://arxiv.org/abs/2201.13408)"
+      },
+      {
+        "title": "BTYSTE 2022 Met Eireann Award",
+        "date": "2022",
+        "awarder": "BT Young Scientist, Met Eireann",
+        "summary": "Extreme weather prediction using attention augmented convolutions (https://arxiv.org/abs/2201.13408)"
+      },
+      {
+        "title": "SciFest 2021 Innovator's award",
+        "date": "2021",
+        "awarder": "St Andrew's College",
+        "summary": "Plant disease identification"
       },
       {
         "title": "AIPO Finalist",
@@ -184,8 +208,8 @@
     ],
     "references": [
       {
-        "name": "Yangcheng Huang (yangcheng.huang@gmail.com)",
-        "reference": "Competitive coding and machine learning"
+        "name": "Available on request",
+        "reference": ""
       }
     ]
   }
