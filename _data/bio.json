@@ -114,8 +114,8 @@
         "institution": "Stanford University",
         "area": "Stanford, California",
         "studyType": "Online Course",
-        "startDate": "12/11/2021",
-        "endDate": "1/2/2022",
+        "startDate": "2021",
+        "endDate": "2022",
         "gpa": "4.0 (https://coursera.org/share/3c6e9b12a967d55e999838272348b09a)",
         "courses": [
           "Mathematical Thinking",
@@ -127,7 +127,7 @@
         "area": "Cambridge, Massachusetts",
         "studyType": "Online Course",
         "startDate": "2021",
-        "endDate": "Ongoing",
+        "endDate": "2022",
         "gpa": "4.0",
         "courses": [
           "Introduction to Algorithms 6.006",
@@ -142,8 +142,8 @@
       {
         "organization": "BT Bootcamp",
         "website": "https://btyoungscientist.com/",
-        "startDate": "7th March 2022",
-        "endDate": "11th March 2022",
+        "startDate": "2022",
+        "endDate": "2022",
         "position": "Student", 
         "summary": "Collaborated with a team to create a product: A-Ok, an autism communication wristband",
         "highlights": [
@@ -155,8 +155,8 @@
       {
         "organization": "IOI Training Camp, University College Cork",
         "website": "https://www.ucc.ie/en/compsci/",
-        "startDate": "4th July 2022",
-        "endDate": "9th July 2022",
+        "startDate": "2022",
+        "endDate": "2022",
         "position": "Student", 
         "summary": "Learned advanced algorithms and competed in daily contests",
         "highlights": [
