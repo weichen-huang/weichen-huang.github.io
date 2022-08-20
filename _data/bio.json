@@ -164,6 +164,18 @@
     ],
     "volunteer": [
       {
+        "organization": "ACM KDD 2022 Workshop: Fragile Earth 2022",
+        "website": "https://ai4good.org/fragile-earth-2022/",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Author", 
+        "summary": "Published 'Feature scaling and attention convolutions for extreme precipitation prediction'",
+        "highlights": [
+          "Paper link: https://ai4good.org/wp-content/uploads/2022/08/FE2022-Feature-scaling-and-attention-convolutions-for-extreme.pdf",
+          "Workshop link: https://ai4good.org/fragile-earth-2022/"
+        ]
+      },
+      {
         "organization": "IOI Training Camp, University College Cork",
         "website": "https://www.ucc.ie/en/compsci/",
         "startDate": "2022",
