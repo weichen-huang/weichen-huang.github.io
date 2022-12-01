@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cxr.png
+image: images/cxr.jpeg
 title: Coming soon...
 permalink: projects/cxr_zs
 # All dates must be YYYY-MM-DD format!
