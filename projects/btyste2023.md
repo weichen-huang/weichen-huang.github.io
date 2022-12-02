@@ -18,5 +18,5 @@ summary: Coming soon...
 	frameborder="0"
 	scrolling="yes"
 	width="850"
-	height="850"
+	height="6000"
 ></iframe>
