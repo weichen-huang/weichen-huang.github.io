@@ -16,5 +16,7 @@ summary: Coming soon...
 <iframe
 	src="https://whuang06-cxr-predict.hf.space"
 	frameborder="0"
-	scrolling="auto"
+	scrolling="yes"
+	width="850"
+	height="850"
 ></iframe>
