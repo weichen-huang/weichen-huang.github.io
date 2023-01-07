@@ -5,7 +5,7 @@
 {% assign extracurricular_pages = site.pages | where: "type", "extracurricular"  | where_exp: "page", "page.draft != true" %}
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
-{% assign num_extracurricular = extracurricular_pages.size %}
+{% assign num_extracurriculars = extracurricular_pages.size %}
 
 <div class="nonprintable">
   <nav class="ui stackable menu">
@@ -18,8 +18,8 @@
     {% if num_essays > 0 %}
     <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item">Essays ({{ num_essays }})</a>
     {% endif %}
-    {% if num_extracurricular > 0 %}
-    <a href="{{ site.baseurl }}/extracurricular" class=" {% if include.active == "extracurricular" %} active {% endif %} item">Extracurricular ({{ num_extracurricular }})</a>
+    {% if num_extracurriculars > 0 %}
+    <a href="{{ site.baseurl }}/extracurriculars" class=" {% if include.active == "extracurriculars" %} active {% endif %} item">Extracurriculars ({{ num_extracurriculars }})</a>
     {% endif %}
     <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">{{ site.bio-page-label }}</a>
   </nav>

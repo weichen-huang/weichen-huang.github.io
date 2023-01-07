@@ -17,7 +17,7 @@ theme-home: theme-home-builtin-2.html
 theme-projects: theme-projects-builtin-2.html
 theme-essays: theme-essays-builtin-2.html
 theme-bio: theme-bio-builtin-1.html
-theme-extracurricular: theme-extracurricular-builtin-1.html
+theme-extracurriculars: theme-extracurriculars-builtin-1.html
 
 # Specify the rouge syntax highlighter theme. Pick one from css/rouge.
 rouge-theme: css/rouge/igorpro
