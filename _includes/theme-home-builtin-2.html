@@ -1,8 +1,10 @@
 <!-- Home page design with large image to left of bio info. -->
 {% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
+{% assign extracurricular_pages = site.pages | where: "type", "extracurricular"  | where_exp: "page", "page.draft != true" %}
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
+{% assign num_extracurriculars = extracurricular_pages.size %}
 
 <div style="height: 100%;" class="ui middle aligned two column centered stackable grid container">
 
@@ -32,6 +34,9 @@
       </a>
       <a href="{{ site.baseurl}}/essays/">
         <button class="ui basic button">Essays ({{ num_essays }})</button>
+      </a>
+      <a href="{{ site.baseurl}}/extracurriculars/">
+        <button class="ui basic button">Extracurricular Activities ({{ num_extracurriculars }})</button>
       </a>
       <a href="{{ site.baseurl}}/bio/">
         <button class="ui basic button">{{ site.bio-page-label }}</button>
