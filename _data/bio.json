@@ -57,7 +57,7 @@
           "C++",
           "Python",
           "Java",
-          "C",
+          "C"
         ]
       },
       {
@@ -71,7 +71,7 @@
         "name": "Codeforces",
         "level": "1205",
         "keywords": [
-          "https://codeforces.com/profile/WHg00"
+          "https://codeforces.com/profile/WHCPP"
         ]
       }
       
@@ -142,7 +142,7 @@
           "Introduction to Algorithms 6.006",
           "Mathematics for Computer Scinece 6.042J",
           "Single Variable Calculus 18.01",
-          "Design and Analysis of Algorithms 6046J",
+          "Design and Analysis of Algorithms 6046J"
         ]
       },
       {
@@ -157,12 +157,122 @@
           "Inequalities: AM-GM, Cauchy's inequality",
           "Number theory: Prime numbers, factorisation, sieve of Eratosthenes",
           "Enumerative combinatorics: Binomial theorem, factorials",
-          "International Math Olympiad question practice",
+          "International Math Olympiad question practice"
         ]
-      },
+      }
         
     ],
     "volunteer": [
+      {
+        "organization": "USACO December 2022",
+        "website": "http://www.usaco.org/index.php?page=dec22results",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Participant", 
+        "summary": "Bronze in USACO December 2022",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "organization": "St Andrew's College Math Club",
+        "website": "",
+        "startDate": "2022",
+        "endDate": "Ongoing",
+        "position": "Co-organiser", 
+        "summary": "Co-organiser of St Andrew's College Math Club",
+        "highlights": [
+          "Details to be added"
+        ]
+      },
+      {
+        "organization": "UCD Machine Learning for Medical Imaging",
+        "website": "https://www.ucd-ml-mi.com/",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Presenter and Co-organiser", 
+        "summary": "Organized a Transition Year school visit to UCD Medical imaging lab",
+        "highlights": [
+          "Details to be added"
+        ]
+      },
+      {
+        "organization": "St Andrew's College Competitve Programming Club",
+        "website": "",
+        "startDate": "2022",
+        "endDate": "Ongoing",
+        "position": "Organizer", 
+        "summary": "Started a competitve programming club in St Andrew's College.",
+        "highlights": [
+          "Details to be added"
+        ]
+      },
+      {
+        "organization": "Irish Physics Olympiad 2022",
+        "website": "https://castel.ie/olympiads/irish-olympiad-of-experimental-science/",
+        "startDate": "2022",
+        "endDate": "2023",
+        "position": "Participant", 
+        "summary": "Round 1 qualifier, Round 2 to be confirmed",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "organization": "Canadian Senior Math Contest",
+        "website": "https://www.cemc.uwaterloo.ca/contests/past_contests.html",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Participant", 
+        "summary": "Result to be confirmed",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "organization": "AWS Transition Year Hackathon",
+        "website": "https://codeweek.eu/view/455084/hackathon",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Participant", 
+        "summary": "Participated in AWS Transition Year Hackathon",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "organization": "Google Kickstart 2022",
+        "website": "https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/00000000008caba4",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Participant", 
+        "summary": "Participated in round E, F, G",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "organization": "Meta Hacker Cup 2022",
+        "website": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/certificate/810515623321556",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Participant", 
+        "summary": "Qualified to Round 2 of Meta Hacker Cup",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "organization": "Self Help Africa",
+        "website": "https://selfhelpafrica.org/ie/two-upcoming-science-webinars-for-students/",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Presenter", 
+        "summary": "Presented 'Feature scaling and attention convolutions for extreme precipitation prediction'",
+        "highlights": [
+          ""
+        ]
+      },
       {
         "organization": "ACM KDD 2022 Workshop: Fragile Earth 2022",
         "website": "https://ai4good.org/fragile-earth-2022/",
@@ -215,7 +325,7 @@
           "Report: https://arxiv.org/abs/2201.13408",
           "Project page: https://weichen-huang.github.io/projects/saconvnets",
           "Poster: https://weichen-huang.github.io/images/btyste_poster_weichenhuang.pdf",
-          "Code repository: https://github.com/weichen-huang/climatenets",
+          "Code repository: https://github.com/weichen-huang/climatenets"
         ]
       },
       {
@@ -229,7 +339,7 @@
           "Project title: Using Efficientnets and lung X-ray imaging to detect COVID-19",
           "Report: https://medium.com/@weichen.huang.2020/covid-efficientnet-covid-19-detection-with-chest-x-ray-images-and-deep-learning-7eaaf25645bf",
           "Project page: https://weichen-huang.github.io/projects/covidEfficientnet",
-          "Code repository: https://github.com/weichen-huang/COVID-Efficientnet-Pytorch",
+          "Code repository: https://github.com/weichen-huang/COVID-Efficientnet-Pytorch"
         ]
       },
       {
@@ -239,7 +349,7 @@
         "position": "Participant", 
         "summary": "Participated in Scifest Competition",
         "highlights": [
-          "Project title: Plant disease identification using deep learning",
+          "Project title: Plant disease identification using deep learning"
         ]
       }
       
@@ -260,27 +370,27 @@
       {
         "title": "BTYSTE 2022 Category joint 1st place",
         "date": "2022",
-        "awarder": "BT Young Scientist",
+        "awarder": "BT Young Scientist"
       },
       {
         "title": "BTYSTE 2022 Met Eireann Award",
         "date": "2022",
-        "awarder": "BT Young Scientist, Met Eireann",
+        "awarder": "BT Young Scientist, Met Eireann"
       },
       {
         "title": "BTYSTE 2021 Category 1st place",
         "date": "2021",
-        "awarder": "BT Young Scientist",
+        "awarder": "BT Young Scientist"
       },
       {
         "title": "SciFest 2021 Innovator's award",
         "date": "2021",
-        "awarder": "St Andrew's College",
+        "awarder": "St Andrew's College"
       },
       {
         "title": "St Andrew's College Academic Award",
         "date": "2021",
-        "awarder": "St Andrew's College",
+        "awarder": "St Andrew's College"
       }
     ],
     "references": [
