@@ -2,7 +2,7 @@
 layout: extracurricular
 type: extracurricular
 title: Self Help Africa
-permalink: extracurricular/selfhelpafricaActivity
+permalink: extracurriculars/selfhelpafricaActivity
 # All dates must be YYYY-MM-DD format!
 date: 2020-10-19
 labels:
