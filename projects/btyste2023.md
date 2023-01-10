@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/cxr.jpeg
-title: Coming soon...
+title: Disease prediction and report generation demo
 permalink: projects/cxr_zs
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-03
@@ -10,7 +10,7 @@ labels:
   - AI
   - Deep learning
   - Information Retrieval
-summary: Coming soon...
+summary: Demonstration of BTYSTE 2023 project
 ---
 
 <iframe
@@ -18,5 +18,5 @@ summary: Coming soon...
 	frameborder="0"
 	scrolling="yes"
 	width="850"
-	height="6000"
+	height="10000"
 ></iframe>
