@@ -15,6 +15,6 @@ summary: ...
 <iframe
 	src="https://whuang06-btdemo2024.hf.space"
 	frameborder="0"
-	width="850"
-	height="450"
+	width="1000"
+	height="1000"
 ></iframe>
