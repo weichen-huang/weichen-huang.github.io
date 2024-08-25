@@ -1,12 +1,12 @@
 {
     "basics": {
       "name": "Weichen Huang",
-      "label": "Numbers enthusiast",
-      "picture": "https://weichen-huang.github.io/images/quote2.png",
+      "label": "Brain enthusiast",
+      "picture": "https://weichen-huang.github.io/images/betterphoto.jpeg",
       "email": "weichen.huang.2020@gmail.com",
       "phone": "+353-85-1191-391",
       "website": "https://weichen-huang.github.io",
-      "summary": "Competitive Coder, Mathematician, High School Student",
+      "summary": "High School Student",
       "location": {
         "address": "Blackrock",
         "postalCode": "",
@@ -28,13 +28,13 @@
         {
           "network": "code",
           "username": "weichen-huang",
-          "url": "https://codeforces.com/profile/WHg00"
+          "url": "https://codeforces.com/profile/WHCPP"
         }
       ]
     },
     "interests": [
       {
-        "name": "competitve programming",
+        "name": "competitive programming",
         "keywords": [
         ]
       }, 
@@ -44,7 +44,12 @@
         ]
       },
       {
-        "name": "discrete math",
+        "name": "math and CS",
+        "keywords": [
+        ]
+      },
+      {
+        "name": "computational neuroscience",
         "keywords": [
         ]
       }
@@ -86,7 +91,9 @@
         "gpa": "4.0",
         "courses": [
           "Junior Cycle",
-          "Transition Year"
+          "Transition Year",
+          "DELF B1 - French language",
+          "International Baccalaureate"
         ]
       },
       {
@@ -102,6 +109,34 @@
           "Combinatorics (fundamental principle of counting, combinations and permutations, probability)",
           "Advanced Geometry (triangle theorems, circle theorems, polygons, 3D geometry)",
           "Practice AMC contests"
+        ]
+      },
+      {
+        "institution": "University College Dublin",
+        "area": "Dublin",
+        "studyType": "UCD Medical Imaging Summer School",
+        "startDate": "2023",
+        "endDate": "2023",
+        "courses": [
+          "(Module) Fourier transforms in MRI Imaging",
+          "(Module) Federated Learning",
+          "(Module) Segmentation ",
+          "(Module) Explainable AI",
+          "(Project) MRNet: Knee MRI Examination using Spatial Attention and Vision Transformers"
+        ]
+      },
+      {
+        "institution": "University of Cambridge Centre for AI and Medicine",
+        "area": "Online",
+        "studyType": "University of Cambridge Centre for AI and Medicine Summer School",
+        "startDate": "2023",
+        "endDate": "2023",
+        "courses": [
+          "(Module) Time-Series in Healthcare",
+          "(Module) Individualised Treatment Effects",
+          "(Module) Synthetic Data",
+          "(Module) Causal Deep Learning ML for Clinical Trials",
+          "(Module) Large Language Models"
         ]
       },
       {
@@ -140,9 +175,23 @@
         "gpa": "4.0",
         "courses": [
           "Introduction to Algorithms 6.006",
-          "Mathematics for Computer Scinece 6.042J",
+          "Mathematics for Computer Science 6.042J",
           "Single Variable Calculus 18.01",
+          "Mathematics of Machine Learning 18.657",
+          "Differential Equations 18.03",
+          "Multivariable Calculus 18.02",
           "Design and Analysis of Algorithms 6046J"
+        ]
+      },
+      {
+        "institution": "AIPO IOI Training",
+        "area": "Cork",
+        "studyType": "Training for IOI Team selection",
+        "startDate": "2022",
+        "endDate": "2024",
+        "gpa": "4.0",
+        "courses": [
+          "Binary Lifting, Lazy Segment Trees, Graph Coloring, DSU, Dynamic Programming"
         ]
       },
       {
@@ -164,12 +213,82 @@
     ],
     "volunteer": [
       {
-        "organization": "USACO December 2022",
-        "website": "http://www.usaco.org/index.php?page=dec22results",
+        "organization": "RSI 2024",
+        "website": "https://www.cee.org/programs/research-science-institute",
+        "startDate": "2024",
+        "endDate": "2024",
+        "position": "Rickoid",
+        "summary": "Worked on a research project in neuromorphic computing at MIT BCS DiCarlo Lab under mentorship of Yudi Xie",
+        "highlights": [
+          "Presented 'Convergent Neural Representations: Are artificial neural networks trained on different latent variables converging to similar representations of the ventral stream?'"
+        ]
+      },
+      {
+        "organization": "BT Young Scientist Exhibition",
+        "website": "https://btyoungscientist.com/",
+        "startDate": "2024",
+        "endDate": "2024",
+        "position": "Participant",
+        "summary": "Participated and presented project at BTYSTE Exhibition",
+        "highlights": [
+          "Project title: Multimodal Contrastive Learning and Tabular Attention for Automated Alzheimer's Disease Prediction",
+          "Report: https://arxiv.org/abs/2308.15469v1",
+          "Code repository: https://huggingface.co/spaces/whuang06/btdemo2024"
+        ]
+      },
+      {
+        "organization": "UCD ML-MI Internship",
+        "website": "https://www.ucd-ml-mi.com/",
+        "startDate": "2023",
+        "endDate": "Ongoing",
+        "position": "Researcher",
+        "summary": "Research internship at UCD Machine Learning for Medical Imaging Lab under Dr. Kathleen Curran",
+        "highlights": [
+          "RSNA 2023 Collaborative Paper with Z. Chang, K. Curran: Improved Multimodal Diagnosis of Alzheimer's Disease through MRI and PET Image Fusion",
+          "T-junction detection",
+          "IMVIP 2023 Collaborative Paper with K. Curran: Spurious Correlation Mitigation in CXR Images via Reinforcement learning and Self-Supervision"
+        ]
+      },
+      {
+        "organization": "ICCV Paris 2023",
+        "website": "https://iccv2023.thecvf.com/",
+        "startDate": "2023",
+        "endDate": "2023",
+        "position": "Volunteer and presenter",
+        "summary": "Volunteered and presented at the International Conference on Computer Vision",
+        "highlights": [
+          "Presented a multimodal contrastive learning method for Alzheimer's detection (arxiv: 2308.15469)",
+          "Volunteered for organising the conference, which involves helping presenters and setting up IT equipment"
+        ]
+      },
+      {
+        "organization": "BT Young Scientist Exhibition",
+        "website": "https://btyoungscientist.com/",
+        "startDate": "2023",
+        "endDate": "2023",
+        "position": "Participant",
+        "summary": "Participated and presented project at BTYSTE Exhibition",
+        "highlights": [
+          "Project title: Self-Supervised Cross-Modal Representation Learning",
+          "Code repository: https://huggingface.co/spaces/whuang06/CXR_predict"
+        ]
+      },
+      {
+        "organization": "USACO",
+        "website": "http://www.usaco.org/index.php",
         "startDate": "2022",
-        "endDate": "2022",
+        "endDate": "2024",
         "position": "Participant", 
-        "summary": "Bronze in USACO December 2022",
+        "summary": "USACO Gold Division",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "organization": "Leadership Seminar",
+        "startDate": "2023",
+        "endDate": "2023",
+        "position": "Participant",
         "highlights": [
           ""
         ]
@@ -182,7 +301,7 @@
         "position": "Co-organiser", 
         "summary": "Co-organiser of St Andrew's College Math Club",
         "highlights": [
-          "Details to be added"
+          "Preparing problems for maths club members, registering the school into competitions such as Canadian Senior Maths Contest, presenting key concepts in number theory, combinatorics, algebra and geometry to maths club members"
         ]
       },
       {
@@ -204,16 +323,15 @@
         "position": "Organizer", 
         "summary": "Started a competitve programming club in St Andrew's College.",
         "highlights": [
-          "Details to be added"
+          "Preparing problems for coding club members, introducing new members to programming languages: C++, Python, registering the school into competitions such as Bebras Computing Challenge, presenting key concepts in Data Structures and Algorithms to club members"
         ]
       },
       {
         "organization": "Irish Physics Olympiad 2022",
         "website": "https://castel.ie/olympiads/irish-olympiad-of-experimental-science/",
         "startDate": "2022",
-        "endDate": "2023",
+        "endDate": "2022",
         "position": "Participant", 
-        "summary": "Round 1 qualifier, Round 2 to be confirmed",
         "highlights": [
           ""
         ]
@@ -222,11 +340,23 @@
         "organization": "Canadian Senior Math Contest",
         "website": "https://www.cemc.uwaterloo.ca/contests/past_contests.html",
         "startDate": "2022",
-        "endDate": "2022",
+        "endDate": "2023",
         "position": "Participant", 
-        "summary": "Result to be confirmed",
+        "summary": "Roll of Honour 2023",
         "highlights": [
           ""
+        ]
+      },
+      {
+        "organization": "Online coding competitions",
+        "website": "http://www.facebook.com/codingcompetitions/hacker-cup/2022/certificate/810515623321556",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Participant",
+        "summary": "Participated in Google Kickstart 2022 and Meta Hacker Cup 2022",
+        "highlights": [
+          "Meta Hacker Cup qualified to round 2",
+          "Google Kickstart round E, F, G"
         ]
       },
       {
@@ -356,6 +486,30 @@
     ],
     "awards": [
       {
+        "title": "BPhO Bronze",
+        "date": "2024",
+        "awarder": "BPhO",
+        "summary": "Bronze medal in British Physics Olympiad"
+      },
+      {
+        "title": "CSMC Distinction",
+        "date": "2024",
+        "awarder": "CSMC",
+        "summary": "Distinction and Roll of Honour in Canadian Senior Math Contest"
+      },
+      {
+        "title": "AIPO/IrlCPC Finalist",
+        "date": "2024",
+        "awarder": "AIPO",
+        "summary": "Top 10 competitive programmers in Ireland. IOI Selection team"
+      },
+      {
+        "title": "AIPO/IrlCPC Finalist",
+        "date": "2023",
+        "awarder": "AIPO",
+        "summary": "Top 10 competitive programmers in Ireland. IOI Selection team"
+      },
+      {
         "title": "AIPO Finalist",
         "date": "2022",
         "awarder": "AIPO",
@@ -368,6 +522,42 @@
         "summary": "Finalist in Math Olympiad"
       },
       {
+        "title": "Scifest Boston Scientific Award",
+        "date": "2024",
+        "awarder": "Boston Scientific",
+        "summary": "Top 10 competitive programmers in Ireland. IOI Selection team"
+      },
+      {
+        "title": "BTYSTE 2024 Category 2nd place",
+        "date": "2024",
+        "awarder": "BT Young Scientist"
+      },
+      {
+        "title": "BTYSTE 2024 Irish Research Council Award",
+        "date": "2024",
+        "awarder": "BT Young Scientist, Irish Research Council"
+      },
+      {
+        "title": "Western Europe Olympiad in Informatics",
+        "date": "2024",
+        "awarder": "Irish team member (rank 42): https://weoi.org/results/2023/"
+      },
+      {
+        "title": "TY Distinction",
+        "date": "2023",
+        "awarder": "Awarded Gold Distinction at TY Closing Ceremony"
+      },
+      {
+        "title": "BTYSTE 2023 Category 1st place",
+        "date": "2023",
+        "awarder": "BT Young Scientist"
+      },
+      {
+        "title": "BTYSTE 2023 Stripe Award",
+        "date": "2023",
+        "awarder": "BT Young Scientist, Stripe"
+      },
+      {
         "title": "BTYSTE 2022 Category joint 1st place",
         "date": "2022",
         "awarder": "BT Young Scientist"
@@ -376,6 +566,11 @@
         "title": "BTYSTE 2022 Met Eireann Award",
         "date": "2022",
         "awarder": "BT Young Scientist, Met Eireann"
+      },
+      {
+        "title": "Self-Help Africa / Irish Aid Webinar",
+        "date": "2021",
+        "awarder": "Department of Foreign Affairs"
       },
       {
         "title": "BTYSTE 2021 Category 1st place",
