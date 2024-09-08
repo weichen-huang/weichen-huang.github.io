@@ -214,6 +214,7 @@
         "website": "https://medicss.cs.ucl.ac.uk/",
         "startDate": "2022",
         "endDate": "2022",
+        "position": "Participant",
         "summary": "UCL Medical Image Computing Summer School (MedICSS, 11 July - 15 July)",
         "highlights": [
           "(Module) Improving hearing care pathways with the use of machine learning",
@@ -264,8 +265,8 @@
         "title": "ACM KDD 2022 Workshop: Fragile Earth 2022",
         "website": "https://ai4good.org/fragile-earth-2022/",
         "date": "2022",
-        "author": "Author",
-        "summary": "Published 'Feature scaling and attention convolutions for extreme precipitation prediction'",
+        "author": "Weichen Huang",
+        "summary": "'Feature scaling and attention convolutions for extreme precipitation prediction', ACM KDD 2022 Workshop: Fragile Earth 2022",
         "highlights": [
           "Paper link: https://ai4good.org/wp-content/uploads/2022/08/FE2022-Feature-scaling-and-attention-convolutions-for-extreme.pdf",
           "Workshop link: https://ai4good.org/fragile-earth-2022/"
