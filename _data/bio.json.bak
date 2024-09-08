@@ -39,12 +39,12 @@
         ]
       }, 
       {
-        "name": "artificial intelligence",
+        "name": "machine learning",
         "keywords": [
         ]
       },
       {
-        "name": "computer science",
+        "name": "math and CS",
         "keywords": [
         ]
       },
@@ -96,63 +96,6 @@
           "International Baccalaureate"
         ]
       },
-      {
-        "institution": "MIT OpenCourseWare",
-        "area": "Cambridge, Massachusetts",
-        "studyType": "Online Course",
-        "startDate": "2021",
-        "endDate": "2022",
-        "gpa": "4.0",
-        "courses": [
-          "Introduction to Algorithms 6.006",
-          "Mathematics for Computer Science 6.042J",
-          "Single Variable Calculus 18.01",
-          "Mathematics of Machine Learning 18.657",
-          "Differential Equations 18.03",
-          "Multivariable Calculus 18.02",
-          "Design and Analysis of Algorithms 6046J"
-        ]
-      },
-      {
-        "institution": "Stanford University",
-        "area": "Stanford, California",
-        "studyType": "Online Course",
-        "startDate": "2021",
-        "endDate": "2022",
-        "gpa": "4.0 (https://coursera.org/share/3c6e9b12a967d55e999838272348b09a)",
-        "courses": [
-          "Mathematical Thinking",
-          "Logical notation and problem solving"
-        ]
-      }
-    ],
-    "work": [
-      {
-        "company": "University College Dublin",
-        "position": "Research Intern",
-        "website": "https://www.ucd-ml-mi.com/",
-        "startDate": "Feb 2023",
-        "endDate": "Present",
-        "summary": "Research internship at UCD Machine Learning for Medical Imaging Lab under Dr. Kathleen Curran",
-        "highlights": [
-          "RSNA 2023 Collaborative Paper with Z. Chang, K. Curran: Improved Multimodal Diagnosis of Alzheimer's Disease through MRI and PET Image Fusion",
-          "T-junction detection",
-          "IMVIP 2023 Collaborative Paper with K. Curran: Spurious Correlation Mitigation in CXR Images via Reinforcement learning and Self-Supervision"
-        ]
-      },
-      {
-        "company": "MIT",
-        "position": "RSI Researcher",
-        "website": "https://dicarlolab.mit.edu/",
-        "startDate": "June 2024",
-        "endDate": "Present",
-        "summary": "TBA",
-        "highlights": [
-          "TBA"
-        ]
-      }
-    ],
-    "volunteer": [
       {
         "institution": "University College Dublin",
         "area": "Dublin",
@@ -212,6 +155,35 @@
         ]
       },
       {
+        "institution": "Stanford University",
+        "area": "Stanford, California",
+        "studyType": "Online Course",
+        "startDate": "2021",
+        "endDate": "2022",
+        "gpa": "4.0 (https://coursera.org/share/3c6e9b12a967d55e999838272348b09a)",
+        "courses": [
+          "Mathematical Thinking",
+          "Logical notation and problem solving"
+        ]
+      },
+      {
+        "institution": "MIT OpenCourseWare",
+        "area": "Cambridge, Massachusetts",
+        "studyType": "Online Course",
+        "startDate": "2021",
+        "endDate": "2022",
+        "gpa": "4.0",
+        "courses": [
+          "Introduction to Algorithms 6.006",
+          "Mathematics for Computer Science 6.042J",
+          "Single Variable Calculus 18.01",
+          "Mathematics of Machine Learning 18.657",
+          "Differential Equations 18.03",
+          "Multivariable Calculus 18.02",
+          "Design and Analysis of Algorithms 6046J"
+        ]
+      },
+      {
         "institution": "AIPO IOI Training",
         "area": "Cork",
         "studyType": "Training for IOI Team selection",
@@ -236,7 +208,10 @@
           "Enumerative combinatorics: Binomial theorem, factorials",
           "International Math Olympiad question practice"
         ]
-      },
+      }
+        
+    ],
+    "volunteer": [
       {
         "organization": "RSI 2024",
         "website": "https://www.cee.org/programs/research-science-institute",
@@ -259,6 +234,19 @@
           "Project title: Multimodal Contrastive Learning and Tabular Attention for Automated Alzheimer's Disease Prediction",
           "Report: https://arxiv.org/abs/2308.15469v1",
           "Code repository: https://huggingface.co/spaces/whuang06/btdemo2024"
+        ]
+      },
+      {
+        "organization": "UCD ML-MI Internship",
+        "website": "https://www.ucd-ml-mi.com/",
+        "startDate": "2023",
+        "endDate": "Ongoing",
+        "position": "Researcher",
+        "summary": "Research internship at UCD Machine Learning for Medical Imaging Lab under Dr. Kathleen Curran",
+        "highlights": [
+          "RSNA 2023 Collaborative Paper with Z. Chang, K. Curran: Improved Multimodal Diagnosis of Alzheimer's Disease through MRI and PET Image Fusion",
+          "T-junction detection",
+          "IMVIP 2023 Collaborative Paper with K. Curran: Spurious Correlation Mitigation in CXR Images via Reinforcement learning and Self-Supervision"
         ]
       },
       {
