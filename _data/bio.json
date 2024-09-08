@@ -262,26 +262,32 @@
     ],
     "publications": [
       {
-        "title": "ACM KDD 2022 Workshop: Fragile Earth 2022",
+        "name": "Feature scaling and attention convolutions for extreme precipitation prediction",
         "website": "https://ai4good.org/fragile-earth-2022/",
-        "date": "2022",
+        "releaseDate": "2022",
         "author": "Weichen Huang",
-        "summary": "'Feature scaling and attention convolutions for extreme precipitation prediction', ACM KDD 2022 Workshop: Fragile Earth 2022",
-        "highlights": [
-          "Paper link: https://ai4good.org/wp-content/uploads/2022/08/FE2022-Feature-scaling-and-attention-convolutions-for-extreme.pdf",
-          "Workshop link: https://ai4good.org/fragile-earth-2022/"
-        ]
+        "summary": "ACM KDD 2022 Workshop: Fragile Earth 2022; also presented at Self Help Africa, Irish Aid program"
       },
       {
-        "title": "Self Help Africa",
-        "website": "https://selfhelpafrica.org/ie/two-upcoming-science-webinars-for-students/",
-        "startDate": "2022",
-        "endDate": "2022",
-        "position": "Presenter",
-        "summary": "Presented 'Feature scaling and attention convolutions for extreme precipitation prediction'",
-        "highlights": [
-          ""
-        ]
+        "name": "Multimodal Contrastive Learning and Tabular Attention for Automated Alzheimer's Disease Prediction",
+        "website": "https://arxiv.org/abs/2308.15469",
+        "releaseDate": "2023",
+        "author": "Weichen Huang",
+        "summary": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)"
+      },
+      {
+        "name": "Improved Multimodal Diagnosis of Alzheimer's Disease through MRI and PET Image Fusion",
+        "website": "https://www.rsna.org/annual-meeting",
+        "releaseDate": "2023",
+        "author": "Weichen Huang, Z. Chang, Prof. K. Curran",
+        "summary": "Radiology Conference & Annual Meeting - RSNA 2023"
+      },
+      {
+        "name": "Spurious Correlation Mitigation in CXR Images via Reinforcement learning and Self-Supervision",
+        "website": "https://www.universityofgalway.ie/c3i/news---events/imvip_2023/",
+        "releaseDate": "2023",
+        "author": "Weichen Huang, Prof. K. Curran",
+        "summary": "25th Irish Machine Vision and Image Processing Conference"
       }
     ],
     "awards": [
