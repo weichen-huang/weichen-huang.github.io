@@ -292,122 +292,78 @@
     ],
     "awards": [
       {
-        "organization": "USACO",
-        "website": "http://www.usaco.org/index.php",
-        "startDate": "2022",
-        "endDate": "2024",
-        "position": "Participant",
-        "summary": "USACO Gold Division",
-        "highlights": [
-          ""
-        ]
+        "title": "USACO Gold",
+        "date": "2023",
+        "awarder": "USACO",
+        "summary": "USACO Gold Division"
       },
       {
-        "organization": "Online coding competitions",
-        "website": "http://www.facebook.com/codingcompetitions/hacker-cup/2022/certificate/810515623321556",
-        "startDate": "2022",
-        "endDate": "2022",
-        "position": "Participant",
-        "summary": "Participated in Google Kickstart 2022 and Meta Hacker Cup 2022",
-        "highlights": [
-          "Meta Hacker Cup qualified to round 2",
-          "Google Kickstart round E, F, G"
-        ]
+        "title": "Western Europe Olympiad in Informatics",
+        "date": "2024",
+        "awarder": "WEOI",
+        "summary": "Irish team member (rank 42): https://weoi.org/results/2023/"
       },
       {
-        "organization": "Google Kickstart 2022",
-        "website": "https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/00000000008caba4",
-        "startDate": "2022",
-        "endDate": "2022",
-        "position": "Participant",
-        "summary": "Participated in round E, F, G",
-        "highlights": [
-          ""
-        ]
+        "title": "AIPO/IrlCPC Finalist",
+        "date": "2024",
+        "awarder": "AIPO",
+        "summary": "AIPO/IrlCPC Finalist 2022, 2023, 2024. Top 10 competitive programmers in Ireland. IOI Selection team"
       },
       {
-        "organization": "Meta Hacker Cup 2022",
-        "website": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/certificate/810515623321556",
-        "startDate": "2022",
-        "endDate": "2022",
-        "position": "Participant",
-        "summary": "Qualified to Round 2 of Meta Hacker Cup",
-        "highlights": [
-          ""
-        ]
+        "title": "Meta Hacker Cup (round 2)",
+        "date": "2022",
+        "awarder": "Facebook",
+        "summary": "http://www.facebook.com/codingcompetitions/hacker-cup/2022/certificate/810515623321556"
       },
       {
-        "organization": "Leadership Seminar",
-        "startDate": "2023",
-        "endDate": "2023",
-        "position": "Participant",
-        "highlights": [
-          ""
-        ]
+        "title": "Google Kickstart (round E, F, G)",
+        "date": "2022",
+        "awarder": "Google",
+        "summary": "https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/00000000008caba4"
       },
       {
-        "organization": "BT Young Scientist Exhibition",
-        "website": "https://btyoungscientist.com/",
-        "startDate": "2024",
-        "endDate": "2024",
-        "position": "Participant",
-        "summary": "Participated and presented project at BTYSTE Exhibition",
-        "highlights": [
-          "Project title: Multimodal Contrastive Learning and Tabular Attention for Automated Alzheimer's Disease Prediction",
-          "Report: https://arxiv.org/abs/2308.15469v1",
-          "Code repository: https://huggingface.co/spaces/whuang06/btdemo2024"
-        ]
+        "title": "Multimodal Contrastive Learning and Tabular Attention for Automated Alzheimer's Disease Prediction",
+        "date": "2024",
+        "awarder": "BT Young Scientist Exhibition",
+        "summary": "Category 2nd place, report: https://arxiv.org/abs/2308.15469v1; code repository: https://huggingface.co/spaces/whuang06/btdemo2024"
       },
       {
-        "organization": "BT Young Scientist Exhibition",
-        "website": "https://btyoungscientist.com/",
-        "startDate": "2023",
-        "endDate": "2023",
-        "position": "Participant",
-        "summary": "Participated and presented project at BTYSTE Exhibition",
-        "highlights": [
-          "Project title: Self-Supervised Cross-Modal Representation Learning",
-          "Code repository: https://huggingface.co/spaces/whuang06/CXR_predict"
-        ]
+        "title": "Irish Research Council Award",
+        "date": "2024",
+        "awarder": "Irish Research Council"
       },
       {
-        "organization": "BT Young Scientist Exhibition",
-        "website": "https://btyoungscientist.com/",
-        "startDate": "2022",
-        "endDate": "2022",
-        "position": "Participant",
-        "summary": "Participated and presented project at BTYSTE Exhibition",
-        "highlights": [
-          "Project title: Extreme weather prediction using attention augmented convolutions",
-          "Report: https://arxiv.org/abs/2201.13408",
-          "Project page: https://weichen-huang.github.io/projects/saconvnets",
-          "Poster: https://weichen-huang.github.io/images/btyste_poster_weichenhuang.pdf",
-          "Code repository: https://github.com/weichen-huang/climatenets"
-        ]
+        "title": "Scifest Boston Scientific Award",
+        "date": "2024",
+        "awarder": "Boston Scientific"
       },
       {
-        "organization": "BT Young Scientist Exhibition",
-        "website": "https://btyoungscientist.com/",
-        "startDate": "2021",
-        "endDate": "2021",
-        "position": "Participant",
-        "summary": "Participated and presented project at BTYSTE Exhibition",
-        "highlights": [
-          "Project title: Using Efficientnets and lung X-ray imaging to detect COVID-19",
-          "Report: https://medium.com/@weichen.huang.2020/covid-efficientnet-covid-19-detection-with-chest-x-ray-images-and-deep-learning-7eaaf25645bf",
-          "Project page: https://weichen-huang.github.io/projects/covidEfficientnet",
-          "Code repository: https://github.com/weichen-huang/COVID-Efficientnet-Pytorch"
-        ]
+        "title": "Self-Supervised Cross-Modal Representation Learning",
+        "date": "2023",
+        "awarder": "BT Young Scientist Exhibition",
+        "summary": "Category 1st place, code repository: https://huggingface.co/spaces/whuang06/CXR_predict"
       },
       {
-        "organization": "SciFest",
-        "startDate": "2021",
-        "endDate": "2021",
-        "position": "Participant",
-        "summary": "Participated in Scifest Competition",
-        "highlights": [
-          "Project title: Plant disease identification using deep learning"
-        ]
+        "title": "Stripe Software Award",
+        "date": "2023",
+        "awarder": "Stripe"
+      },
+      {
+        "title": "Extreme weather prediction using attention augmented convolutions",
+        "date": "2022",
+        "awarder": "BT Young Scientist Exhibition",
+        "summary": "Category 1st place, project page: https://weichen-huang.github.io/projects/saconvnets"
+      },
+      {
+        "title": "Met Eireann Award",
+        "date": "2022",
+        "awarder": "Met Eireann"
+      },
+      {
+        "title": "Using Efficientnets and lung X-ray imaging to detect COVID-19",
+        "date": "2021",
+        "awarder": "BT Young Scientist Exhibition",
+        "summary": "Category 1st place, project page: https://weichen-huang.github.io/projects/covidEfficientnet"
       },
       {
         "title": "BPhO Bronze",
@@ -416,39 +372,16 @@
         "summary": "Bronze medal in British Physics Olympiad"
       },
       {
-        "title": "CSMC Distinction",
+        "title": "Canadian Senior Math Contest",
         "date": "2024",
         "awarder": "CSMC",
         "summary": "Distinction and Roll of Honour in Canadian Senior Math Contest"
       },
       {
-        "organization": "Canadian Senior Math Contest",
-        "website": "https://www.cemc.uwaterloo.ca/contests/past_contests.html",
-        "startDate": "2022",
-        "endDate": "2023",
-        "position": "Participant",
-        "summary": "Roll of Honour 2023",
-        "highlights": [
-          ""
-        ]
-      },
-      {
-        "title": "AIPO/IrlCPC Finalist",
-        "date": "2024",
-        "awarder": "AIPO",
-        "summary": "Top 10 competitive programmers in Ireland. IOI Selection team"
-      },
-      {
-        "title": "AIPO/IrlCPC Finalist",
+        "title": "Canadian Senior Math Contest",
         "date": "2023",
-        "awarder": "AIPO",
-        "summary": "Top 10 competitive programmers in Ireland. IOI Selection team"
-      },
-      {
-        "title": "AIPO Finalist",
-        "date": "2022",
-        "awarder": "AIPO",
-        "summary": "Top 10 competitive programmers in Ireland. IOI Selection team"
+        "awarder": "CSMC",
+        "summary": "Roll of Honour in Canadian Senior Math Contest"
       },
       {
         "title": "IrMO Finalist",
@@ -457,70 +390,10 @@
         "summary": "Finalist in Math Olympiad"
       },
       {
-        "organization": "Irish Physics Olympiad 2022",
-        "website": "https://castel.ie/olympiads/irish-olympiad-of-experimental-science/",
-        "startDate": "2022",
-        "endDate": "2022",
-        "position": "Participant",
-        "highlights": [
-          ""
-        ]
-      },
-      {
-        "title": "Scifest Boston Scientific Award",
-        "date": "2024",
-        "awarder": "Boston Scientific",
-        "summary": "Top 10 competitive programmers in Ireland. IOI Selection team"
-      },
-      {
-        "title": "BTYSTE 2024 Category 2nd place",
-        "date": "2024",
-        "awarder": "BT Young Scientist"
-      },
-      {
-        "title": "BTYSTE 2024 Irish Research Council Award",
-        "date": "2024",
-        "awarder": "BT Young Scientist, Irish Research Council"
-      },
-      {
-        "title": "Western Europe Olympiad in Informatics",
-        "date": "2024",
-        "awarder": "Irish team member (rank 42): https://weoi.org/results/2023/"
-      },
-      {
         "title": "TY Distinction",
         "date": "2023",
-        "awarder": "Awarded Gold Distinction at TY Closing Ceremony"
-      },
-      {
-        "title": "BTYSTE 2023 Category 1st place",
-        "date": "2023",
-        "awarder": "BT Young Scientist"
-      },
-      {
-        "title": "BTYSTE 2023 Stripe Award",
-        "date": "2023",
-        "awarder": "BT Young Scientist, Stripe"
-      },
-      {
-        "title": "BTYSTE 2022 Category joint 1st place",
-        "date": "2022",
-        "awarder": "BT Young Scientist"
-      },
-      {
-        "title": "BTYSTE 2022 Met Eireann Award",
-        "date": "2022",
-        "awarder": "BT Young Scientist, Met Eireann"
-      },
-      {
-        "title": "Self-Help Africa / Irish Aid Webinar",
-        "date": "2021",
-        "awarder": "Department of Foreign Affairs"
-      },
-      {
-        "title": "BTYSTE 2021 Category 1st place",
-        "date": "2021",
-        "awarder": "BT Young Scientist"
+        "awarder": "St. Andrews College",
+        "summary": "Awarded Gold Distinction at TY Closing Ceremony"
       },
       {
         "title": "SciFest 2021 Innovator's award",
