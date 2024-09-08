@@ -87,7 +87,7 @@
         "area": "Dublin",
         "studyType": "High school",
         "startDate": "2019",
-        "endDate": "now",
+        "endDate": "Present",
         "gpa": "4.0",
         "courses": [
           "Junior Cycle",
@@ -180,11 +180,12 @@
         ]
       },
       {
-        "institution": "University of Cambridge",
+        "organization": "University of Cambridge",
+        "website": "https://www.damtp.cam.ac.uk/new-cambridge-centre-ai-medicine-ccaim-0",
         "startDate": "2023",
         "endDate": "2023",
-        "position": "Participants",
-        "summary": "University of Cambridge Centre for AI and Medicine Summer School (11 September - 15 September)",
+        "position": "Participant",
+        "summary": "University of Cambridge Centre for AI in Medicine Summer School (11 September - 15 September)",
         "highlights": [
           "(Module) Time-Series in Healthcare",
           "(Module) Individualised Treatment Effects",
@@ -195,9 +196,10 @@
       },
       {
         "organization": "University College Dublin",
+        "website": "https://www.ucd-ml-mi.com/",
         "startDate": "2023",
         "endDate": "2023",
-        "position": "Participants",
+        "position": "Participant",
         "summary": "UCD Medical Imaging Summer School (7 June - 21 August)",
         "highlights": [
           "(Module) Fourier transforms in MRI Imaging",
@@ -208,10 +210,11 @@
         ]
       },
       {
-        "institution": "University College London",
+        "organization": "University College London",
+        "website": "https://medicss.cs.ucl.ac.uk/",
         "startDate": "2022",
         "endDate": "2022",
-        "summary": "UCL Medical Image Computing Summer School (MedICSS) (https://medicss.cs.ucl.ac.uk/; 11 July - 15 July)",
+        "summary": "UCL Medical Image Computing Summer School (MedICSS, 11 July - 15 July)",
         "highlights": [
           "(Module) Improving hearing care pathways with the use of machine learning",
           "(Module) Computer Vision in Minimally Invasive Surgery",
@@ -234,23 +237,23 @@
         ]
       },
       {
-        "organization": "St Andrew's College Math Club",
-        "website": "",
+        "organization": "St Andrew's College Maths Club",
+        "website": "https://www.sac.ie/page/?title=Extra+Curricular+Activities&pid=140",
         "startDate": "2022",
-        "endDate": "Ongoing",
-        "position": "Co-organiser", 
+        "endDate": "Present",
+        "position": "Co-president",
         "summary": "Co-organiser of St Andrew's College Math Club",
         "highlights": [
           "Preparing problems for maths club members, registering the school into competitions such as Canadian Senior Maths Contest, presenting key concepts in number theory, combinatorics, algebra and geometry to maths club members"
         ]
       },
       {
-        "organization": "St Andrew's College Competitve Programming Club",
-        "website": "",
+        "organization": "St Andrew's College Competitive Programming Club",
+        "website": "https://www.sac.ie/page/?title=Extra+Curricular+Activities&pid=140",
         "startDate": "2022",
-        "endDate": "Ongoing",
-        "position": "Organizer", 
-        "summary": "Started a competitve programming club in St Andrew's College.",
+        "endDate": "Present",
+        "position": "President",
+        "summary": "Started a Competitive programming club in St Andrew's College.",
         "highlights": [
           "Preparing problems for coding club members, introducing new members to programming languages: C++, Python, registering the school into competitions such as Bebras Computing Challenge, presenting key concepts in Data Structures and Algorithms to club members"
         ]
@@ -258,11 +261,10 @@
     ],
     "publications": [
       {
-        "organization": "ACM KDD 2022 Workshop: Fragile Earth 2022",
+        "title": "ACM KDD 2022 Workshop: Fragile Earth 2022",
         "website": "https://ai4good.org/fragile-earth-2022/",
-        "startDate": "2022",
-        "endDate": "2022",
-        "position": "Author",
+        "date": "2022",
+        "author": "Author",
         "summary": "Published 'Feature scaling and attention convolutions for extreme precipitation prediction'",
         "highlights": [
           "Paper link: https://ai4good.org/wp-content/uploads/2022/08/FE2022-Feature-scaling-and-attention-convolutions-for-extreme.pdf",
@@ -270,7 +272,7 @@
         ]
       },
       {
-        "organization": "Self Help Africa",
+        "title": "Self Help Africa",
         "website": "https://selfhelpafrica.org/ie/two-upcoming-science-webinars-for-students/",
         "startDate": "2022",
         "endDate": "2022",
