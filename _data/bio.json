@@ -143,6 +143,14 @@
     ],
     "work": [
       {
+        "company": "MIT",
+        "position": "RSI Researcher",
+        "website": "https://dicarlolab.mit.edu/",
+        "startDate": "2024",
+        "endDate": "Present",
+        "summary": "Continued neuromorphic computing research following RSI summer school, with Yudi Xie and Prof. James J. DiCarlo, on convergent neural representations."
+      },
+      {
         "company": "University College Dublin",
         "position": "Research Intern",
         "website": "https://www.ucd-ml-mi.com/",
@@ -153,17 +161,6 @@
           "RSNA 2023 Collaborative Paper with Z. Chang, K. Curran: Improved Multimodal Diagnosis of Alzheimer's Disease through MRI and PET Image Fusion",
           "T-junction detection",
           "IMVIP 2023 Collaborative Paper with K. Curran: Spurious Correlation Mitigation in CXR Images via Reinforcement learning and Self-Supervision"
-        ]
-      },
-      {
-        "company": "MIT",
-        "position": "RSI Researcher",
-        "website": "https://www.mit.edu/",
-        "startDate": "2024",
-        "endDate": "Present",
-        "summary": "TBA",
-        "highlights": [
-          "TBA"
         ]
       }
     ],
@@ -262,11 +259,11 @@
     ],
     "publications": [
       {
-        "name": "Feature scaling and attention convolutions for extreme precipitation prediction",
-        "website": "https://ai4good.org/fragile-earth-2022/",
-        "releaseDate": "2022",
+        "name": "Multimodal Representation Learning using Adaptive Graph Construction",
+        "website": "https://arxiv.org/abs/2410.06395",
+        "releaseDate": "2024",
         "author": "Weichen Huang",
-        "summary": "ACM KDD 2022 Workshop: Fragile Earth 2022; also presented at Self Help Africa, Irish Aid program"
+        "summary": "High School Projects project track (top 4 out of 335 submissions), the Thirty-Eighth Annual 2024 Conference on Neural Information Processing Systems (NeurIPS)."
       },
       {
         "name": "Multimodal Contrastive Learning and Tabular Attention for Automated Alzheimer's Disease Prediction",
@@ -288,9 +285,22 @@
         "releaseDate": "2023",
         "author": "Weichen Huang, Prof. K. Curran",
         "summary": "25th Irish Machine Vision and Image Processing Conference"
+      },
+      {
+        "name": "Feature scaling and attention convolutions for extreme precipitation prediction",
+        "website": "https://ai4good.org/fragile-earth-2022/",
+        "releaseDate": "2022",
+        "author": "Weichen Huang",
+        "summary": "ACM KDD 2022 Workshop: Fragile Earth 2022; also presented at Self Help Africa, Irish Aid program"
       }
     ],
     "awards": [
+      {
+        "title": "NeurIPS'24 High School Projects paper award",
+        "date": "2024",
+        "awarder": "NeurIPS'24",
+        "summary": "High School Projects project track (top 4 out of 335 submissions), the Thirty-Eighth Annual 2024 Conference on Neural Information Processing Systems (NeurIPS). Dec 10, 2024."
+      },
       {
         "title": "USACO Gold",
         "date": "2023",
@@ -322,10 +332,10 @@
         "summary": "https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/00000000008caba4"
       },
       {
-        "title": "Multimodal Contrastive Learning and Tabular Attention for Automated Alzheimer's Disease Prediction",
+        "title": "Category 2nd place, BT Young Scientist Exhibition",
         "date": "2024",
         "awarder": "BT Young Scientist Exhibition",
-        "summary": "Category 2nd place, report: https://arxiv.org/abs/2308.15469v1; code repository: https://huggingface.co/spaces/whuang06/btdemo2024"
+        "summary": "Title: Multimodal Contrastive Learning and Tabular Attention for Automated Alzheimer's Disease Prediction, report: https://arxiv.org/abs/2308.15469v1; code repository: https://huggingface.co/spaces/whuang06/btdemo2024"
       },
       {
         "title": "Irish Research Council Award",
@@ -338,10 +348,10 @@
         "awarder": "Boston Scientific"
       },
       {
-        "title": "Self-Supervised Cross-Modal Representation Learning",
+        "title": "Category 1st place, BT Young Scientist Exhibition",
         "date": "2023",
         "awarder": "BT Young Scientist Exhibition",
-        "summary": "Category 1st place, code repository: https://huggingface.co/spaces/whuang06/CXR_predict"
+        "summary": "Title: Self-Supervised Cross-Modal Representation Learning, code repository: https://huggingface.co/spaces/whuang06/CXR_predict"
       },
       {
         "title": "Stripe Software Award",
@@ -349,10 +359,10 @@
         "awarder": "Stripe"
       },
       {
-        "title": "Extreme weather prediction using attention augmented convolutions",
+        "title": "",
         "date": "2022",
         "awarder": "BT Young Scientist Exhibition",
-        "summary": "Category 1st place, project page: https://weichen-huang.github.io/projects/saconvnets"
+        "summary": "Title: Extreme weather prediction using attention augmented convolutions, project page: https://weichen-huang.github.io/projects/saconvnets"
       },
       {
         "title": "Met Eireann Award",
@@ -360,10 +370,10 @@
         "awarder": "Met Eireann"
       },
       {
-        "title": "Using Efficientnets and lung X-ray imaging to detect COVID-19",
+        "title": "Category 1st place, BT Young Scientist Exhibition",
         "date": "2021",
         "awarder": "BT Young Scientist Exhibition",
-        "summary": "Category 1st place, project page: https://weichen-huang.github.io/projects/covidEfficientnet"
+        "summary": "Title: Using Efficientnets and lung X-ray imaging to detect COVID-19, project page: https://weichen-huang.github.io/projects/covidEfficientnet"
       },
       {
         "title": "BPhO Bronze",
