@@ -1,0 +1,426 @@
+{
+    "basics": {
+      "name": "Weichen Huang",
+      "label": "Brain enthusiast",
+      "picture": "https://weichen-huang.github.io/images/betterphoto.jpeg",
+      "email": "weichen.huang.2020@gmail.com",
+      "phone": "+353-85-1191-391",
+      "website": "https://weichen-huang.github.io",
+      "summary": "High School Student",
+      "location": {
+        "address": "Blackrock",
+        "postalCode": "",
+        "city": "Dublin city",
+        "countryCode": "Ireland",
+        "region": "Dublin"
+      },
+      "profiles": [
+        {
+          "network": "github",
+          "username": "weichen-huang",
+          "url": "http://github.com/weichen-huang"
+        },
+        {
+          "network": "linkedin",
+          "username": "weichen-huang",
+          "url": "https://www.linkedin.com/in/weichen-huang-a17393234/"
+        },
+        {
+          "network": "code",
+          "username": "weichen-huang",
+          "url": "https://codeforces.com/profile/WHCPP"
+        }
+      ]
+    },
+    "interests": [
+      {
+        "name": "competitive programming",
+        "keywords": [
+        ]
+      }, 
+      {
+        "name": "artificial intelligence",
+        "keywords": [
+        ]
+      },
+      {
+        "name": "computer science",
+        "keywords": [
+        ]
+      },
+      {
+        "name": "computational neuroscience",
+        "keywords": [
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "OOP Languages",
+        "level": "1e18",
+        "keywords": [
+          "C++",
+          "Python",
+          "Java",
+          "C"
+        ]
+      },
+      {
+        "name": "Hackerrank",
+        "level": "Gold",
+        "keywords": [
+          "https://www.hackerrank.com/weichenhuang06"
+        ]
+      },
+      {
+        "name": "Codeforces",
+        "level": "1205",
+        "keywords": [
+          "https://codeforces.com/profile/WHCPP"
+        ]
+      }
+      
+    ],
+    "education": [
+      {
+        "institution": "St Andrew's College",
+        "area": "Dublin",
+        "studyType": "High school",
+        "startDate": "2019",
+        "endDate": "Present",
+        "gpa": "4.0",
+        "courses": [
+          "Junior Cycle",
+          "Transition Year",
+          "DELF B1 - French language",
+          "International Baccalaureate"
+        ]
+      },
+      {
+        "institution": "MIT OpenCourseWare",
+        "area": "Cambridge, Massachusetts",
+        "studyType": "Online Course",
+        "startDate": "2021",
+        "endDate": "2022",
+        "gpa": "4.0",
+        "courses": [
+          "Introduction to Algorithms 6.006",
+          "Mathematics for Computer Science 6.042J",
+          "Single Variable Calculus 18.01",
+          "Mathematics of Machine Learning 18.657",
+          "Differential Equations 18.03",
+          "Multivariable Calculus 18.02",
+          "Design and Analysis of Algorithms 6046J"
+        ]
+      },
+      {
+        "institution": "Stanford University",
+        "area": "Stanford, California",
+        "studyType": "Online Course",
+        "startDate": "2021",
+        "endDate": "2022",
+        "gpa": "4.0 (https://coursera.org/share/3c6e9b12a967d55e999838272348b09a)",
+        "courses": [
+          "Mathematical Thinking",
+          "Logical notation and problem solving"
+        ]
+      },
+      {
+        "institution": "Art of Problem Solving",
+        "area": "https://virtual.aopsacademy.org/",
+        "studyType": "High School Math Contests",
+        "startDate": "2022",
+        "endDate": "2022",
+        "gpa": "4.0",
+        "courses": [
+          "Algebra (Algebraic Manipulations, polynomials, sequences and series)",
+          "Number theory (modular arithmetic, divisbility theory)",
+          "Combinatorics (fundamental principle of counting, combinations and permutations, probability)",
+          "Advanced Geometry (triangle theorems, circle theorems, polygons, 3D geometry)",
+          "Practice AMC contests"
+        ]
+      }
+    ],
+    "research": [
+      {
+        "company": "MIT",
+        "position": "RSI Researcher",
+        "website": "https://dicarlolab.mit.edu/",
+        "startDate": "2024",
+        "endDate": "Present",
+        "summary": "Continued neuromorphic computing research following RSI summer school, with Yudi Xie and Prof. James J. DiCarlo, on convergent neural representations."
+      },
+      {
+        "company": "University College Dublin",
+        "position": "Research Intern",
+        "website": "https://www.ucd-ml-mi.com/",
+        "startDate": "2023",
+        "endDate": "Present",
+        "summary": "Research internship at UCD Machine Learning for Medical Imaging Lab under Dr. Kathleen Curran",
+        "highlights": [
+          "RSNA 2023 Collaborative Paper with Z. Chang, K. Curran: Improved Multimodal Diagnosis of Alzheimer's Disease through MRI and PET Image Fusion",
+          "T-junction detection",
+          "IMVIP 2023 Collaborative Paper with K. Curran: Spurious Correlation Mitigation in CXR Images via Reinforcement learning and Self-Supervision"
+        ]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "RSI-MIT 2024",
+        "website": "https://www.cee.org/programs/research-science-institute",
+        "startDate": "2024",
+        "endDate": "2024",
+        "position": "Rickoid",
+        "summary": "Worked on a research project in neuromorphic computing at MIT BCS DiCarlo Lab under mentorship of Yudi Xie (22 June - 3 August)",
+        "highlights": [
+          "Presented 'Convergent Neural Representations: Are artificial neural networks trained on different latent variables converging to similar representations of the ventral stream?'"
+        ]
+      },
+      {
+        "organization": "University of Cambridge",
+        "website": "https://www.damtp.cam.ac.uk/new-cambridge-centre-ai-medicine-ccaim-0",
+        "startDate": "2023",
+        "endDate": "2023",
+        "position": "Participant",
+        "summary": "University of Cambridge Centre for AI in Medicine Summer School (11 September - 15 September)",
+        "highlights": [
+          "(Module) Time-Series in Healthcare",
+          "(Module) Individualised Treatment Effects",
+          "(Module) Synthetic Data",
+          "(Module) Causal Deep Learning ML for Clinical Trials",
+          "(Module) Large Language Models"
+        ]
+      },
+      {
+        "organization": "University College Dublin",
+        "website": "https://www.ucd-ml-mi.com/",
+        "startDate": "2023",
+        "endDate": "2023",
+        "position": "Participant",
+        "summary": "UCD Medical Imaging Summer School (7 June - 21 August)",
+        "highlights": [
+          "(Module) Fourier transforms in MRI Imaging",
+          "(Module) Federated Learning",
+          "(Module) Segmentation ",
+          "(Module) Explainable AI",
+          "(Project) MRNet: Knee MRI Examination using Spatial Attention and Vision Transformers"
+        ]
+      },
+      {
+        "organization": "University College London",
+        "website": "https://medicss.cs.ucl.ac.uk/",
+        "startDate": "2022",
+        "endDate": "2022",
+        "position": "Participant",
+        "summary": "UCL Medical Image Computing Summer School (MedICSS, 11 July - 15 July)",
+        "highlights": [
+          "(Module) Improving hearing care pathways with the use of machine learning",
+          "(Module) Computer Vision in Minimally Invasive Surgery",
+          "(Module) Data-driven disease progression modelling",
+          "(Module) Surgical video understanding with AI",
+          "(Techniques) PET Imaging, Cardiovascular MRI, Lung Fibrosis Imaging, Tomography",
+          "(Project) How old is your brain? Predicting brain age with deep learning (Utilized Keras and Tensorflow libraries, Interacted with different medical imaging datatypes)"
+        ]
+      },
+      {
+        "organization": "ICCV Paris 2023",
+        "website": "https://iccv2023.thecvf.com/",
+        "startDate": "2023",
+        "endDate": "2023",
+        "position": "Volunteer and presenter",
+        "summary": "Volunteered and presented at the International Conference on Computer Vision",
+        "highlights": [
+          "Presented a multimodal contrastive learning method for Alzheimer's detection (arxiv: 2308.15469)",
+          "Volunteered for organising the conference, which involves helping presenters and setting up IT equipment"
+        ]
+      },
+      {
+        "organization": "St Andrew's College Maths Club",
+        "website": "https://www.sac.ie/page/?title=Extra+Curricular+Activities&pid=140",
+        "startDate": "2022",
+        "endDate": "Present",
+        "position": "Co-president",
+        "summary": "Co-organiser of St Andrew's College Math Club",
+        "highlights": [
+          "Preparing problems for maths club members, registering the school into competitions such as Canadian Senior Maths Contest, presenting key concepts in number theory, combinatorics, algebra and geometry to maths club members"
+        ]
+      },
+      {
+        "organization": "St Andrew's College Competitive Programming Club",
+        "website": "https://www.sac.ie/page/?title=Extra+Curricular+Activities&pid=140",
+        "startDate": "2022",
+        "endDate": "Present",
+        "position": "President",
+        "summary": "Started a Competitive programming club in St Andrew's College.",
+        "highlights": [
+          "Preparing problems for coding club members, introducing new members to programming languages: C++, Python, registering the school into competitions such as Bebras Computing Challenge, presenting key concepts in Data Structures and Algorithms to club members"
+        ]
+      }
+    ],
+    "publications": [
+      {
+        "name": "Multimodal Representation Learning using Adaptive Graph Construction",
+        "website": "https://arxiv.org/abs/2410.06395",
+        "releaseDate": "2024",
+        "author": "Weichen Huang",
+        "summary": "High School Projects project track (top 4 out of 335 submissions), the Thirty-Eighth Annual 2024 Conference on Neural Information Processing Systems (NeurIPS)."
+      },
+      {
+        "name": "Multimodal Contrastive Learning and Tabular Attention for Automated Alzheimer's Disease Prediction",
+        "website": "https://arxiv.org/abs/2308.15469",
+        "releaseDate": "2023",
+        "author": "Weichen Huang",
+        "summary": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)"
+      },
+      {
+        "name": "Improved Multimodal Diagnosis of Alzheimer's Disease through MRI and PET Image Fusion",
+        "website": "https://www.rsna.org/annual-meeting",
+        "releaseDate": "2023",
+        "author": "Weichen Huang, Z. Chang, Prof. K. Curran",
+        "summary": "Radiology Conference & Annual Meeting - RSNA 2023"
+      },
+      {
+        "name": "Spurious Correlation Mitigation in CXR Images via Reinforcement learning and Self-Supervision",
+        "website": "https://www.universityofgalway.ie/c3i/news---events/imvip_2023/",
+        "releaseDate": "2023",
+        "author": "Weichen Huang, Prof. K. Curran",
+        "summary": "25th Irish Machine Vision and Image Processing Conference"
+      },
+      {
+        "name": "Feature scaling and attention convolutions for extreme precipitation prediction",
+        "website": "https://ai4good.org/fragile-earth-2022/",
+        "releaseDate": "2022",
+        "author": "Weichen Huang",
+        "summary": "ACM KDD 2022 Workshop: Fragile Earth 2022; also presented at Self Help Africa, Irish Aid program"
+      }
+    ],
+    "awards": [
+      {
+        "title": "NeurIPS'24 High School Projects paper award",
+        "date": "2024",
+        "awarder": "NeurIPS'24",
+        "summary": "High School Projects project track (top 4 out of 335 submissions), the Thirty-Eighth Annual 2024 Conference on Neural Information Processing Systems (NeurIPS). Dec 10, 2024."
+      },
+      {
+        "title": "USACO Gold",
+        "date": "2023",
+        "awarder": "USACO",
+        "summary": "USACO Gold Division"
+      },
+      {
+        "title": "Western Europe Olympiad in Informatics",
+        "date": "2024",
+        "awarder": "WEOI",
+        "summary": "Irish team member (rank 42): https://weoi.org/results/2023/"
+      },
+      {
+        "title": "AIPO/IrlCPC Finalist",
+        "date": "2024",
+        "awarder": "AIPO",
+        "summary": "AIPO/IrlCPC Finalist 2022, 2023, 2024. Top 10 competitive programmers in Ireland. IOI Selection team"
+      },
+      {
+        "title": "Meta Hacker Cup (round 2)",
+        "date": "2022",
+        "awarder": "Facebook",
+        "summary": "http://www.facebook.com/codingcompetitions/hacker-cup/2022/certificate/810515623321556"
+      },
+      {
+        "title": "Google Kickstart (round E, F, G)",
+        "date": "2022",
+        "awarder": "Google",
+        "summary": "https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/00000000008caba4"
+      },
+      {
+        "title": "Category 2nd place, BT Young Scientist Exhibition",
+        "date": "2024",
+        "awarder": "BT Young Scientist Exhibition",
+        "summary": "Title: Multimodal Contrastive Learning and Tabular Attention for Automated Alzheimer's Disease Prediction, report: https://arxiv.org/abs/2308.15469v1; code repository: https://huggingface.co/spaces/whuang06/btdemo2024"
+      },
+      {
+        "title": "Irish Research Council Award",
+        "date": "2024",
+        "awarder": "Irish Research Council"
+      },
+      {
+        "title": "Scifest Boston Scientific Award",
+        "date": "2024",
+        "awarder": "Boston Scientific"
+      },
+      {
+        "title": "Category 1st place, BT Young Scientist Exhibition",
+        "date": "2023",
+        "awarder": "BT Young Scientist Exhibition",
+        "summary": "Title: Self-Supervised Cross-Modal Representation Learning, code repository: https://huggingface.co/spaces/whuang06/CXR_predict"
+      },
+      {
+        "title": "Stripe Software Award",
+        "date": "2023",
+        "awarder": "Stripe"
+      },
+      {
+        "title": "Category 1st place, BT Young Scientist Exhibition",
+        "date": "2022",
+        "awarder": "BT Young Scientist Exhibition",
+        "summary": "Title: Extreme weather prediction using attention augmented convolutions, project page: https://weichen-huang.github.io/projects/saconvnets"
+      },
+      {
+        "title": "Met Eireann Award",
+        "date": "2022",
+        "awarder": "Met Eireann"
+      },
+      {
+        "title": "Category 1st place, BT Young Scientist Exhibition",
+        "date": "2021",
+        "awarder": "BT Young Scientist Exhibition",
+        "summary": "Title: Using Efficientnets and lung X-ray imaging to detect COVID-19, project page: https://weichen-huang.github.io/projects/covidEfficientnet"
+      },
+      {
+        "title": "BPhO Bronze",
+        "date": "2024",
+        "awarder": "BPhO",
+        "summary": "Bronze medal in British Physics Olympiad"
+      },
+      {
+        "title": "Canadian Senior Math Contest",
+        "date": "2024",
+        "awarder": "CSMC",
+        "summary": "Distinction and Roll of Honour in Canadian Senior Math Contest"
+      },
+      {
+        "title": "Canadian Senior Math Contest",
+        "date": "2023",
+        "awarder": "CSMC",
+        "summary": "Roll of Honour in Canadian Senior Math Contest"
+      },
+      {
+        "title": "IrMO Finalist",
+        "date": "2022",
+        "awarder": "Irish Math Olympiad",
+        "summary": "Finalist in Math Olympiad"
+      },
+      {
+        "title": "TY Distinction",
+        "date": "2023",
+        "awarder": "St. Andrews College",
+        "summary": "Awarded Gold Distinction at TY Closing Ceremony"
+      },
+      {
+        "title": "SciFest 2021 Innovator's award",
+        "date": "2021",
+        "awarder": "St Andrew's College"
+      },
+      {
+        "title": "St Andrew's College Academic Award",
+        "date": "2021",
+        "awarder": "St Andrew's College"
+      }
+    ],
+    "references": [
+      {
+        "name": "Available on request",
+        "reference": ""
+      }
+    ]
+  }
+  
