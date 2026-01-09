@@ -145,17 +145,6 @@
       ]
     },
     {
-      "organization": "University of Cambridge",
-      "website": "https://www.damtp.cam.ac.uk/new-cambridge-centre-ai-medicine-ccaim-0",
-      "startDate": "2023",
-      "endDate": "2023",
-      "position": "Participant",
-      "summary": "Centre for AI in Medicine Summer School",
-      "highlights": [
-        "Causal Deep Learning, LLMs, Individualised Treatment Effects"
-      ]
-    },
-    {
       "organization": "ICLR 2025",
       "website": "https://iclr.cc/",
       "startDate": "2025",
@@ -168,7 +157,7 @@
   "publications": [
     {
       "name": "Vision Models Trained to Estimate Spatial Latents Learn Ventral-Stream-Aligned Representations",
-      "website": "https://openreview.net/",
+      "website": "https://computing.mit.edu/news/a-visual-pathway-in-the-brain-may-do-more-than-recognize-objects/",
       "releaseDate": "2025",
       "author": "Y. Xie, W. Huang, E. Alter, J. Schwartz, J. Tenenbaum, J. DiCarlo",
       "summary": "ICLR 2025"
