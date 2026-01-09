@@ -28,25 +28,25 @@
       {
         "network": "google-scholar",
         "username": "weichen-huang",
-        "url": "https://scholar.google.com/citations?user=weichen-huang"
+        "url": "https://scholar.google.com/citations?user=SSOtC7EAAAAJ"
       }
     ]
   },
   "interests": [
     {
-      "name": "mechanistic interpretability",
+      "name": "Mechanistic Interpretability",
       "keywords": []
     },
     {
-      "name": "representation learning",
+      "name": "Representation Learning",
       "keywords": []
     },
     {
-      "name": "computational neuroscience",
+      "name": "Computational Neuroscience",
       "keywords": []
     },
     {
-      "name": "multimodal learning",
+      "name": "Multimodal Learning",
       "keywords": []
     }
   ],
