@@ -98,12 +98,12 @@
     {
       "company": "Georgia Tech - Language Intelligence Lab",
       "position": "Undergraduate Researcher",
-      "website": "https://sites.google.com/view/anna-ivanova/home",
+      "website": "https://www.language-intelligence-thought.net/",
       "startDate": "Oct 2025",
       "endDate": "Present",
       "summary": "PI: Dr. Anna Ivanova",
       "highlights": [
-        "Interpreting LLM-based fMRI encoding models using mechanistic interpretability (TunedLens, prompt recovery)",
+        "Interpreting LLM-based fMRI encoding models using mechanistic interpretability",
         "Building fine-grained semantic maps of the human brain's language network using Representational Similarity Analysis"
       ]
     },
@@ -128,7 +128,7 @@
       "summary": "PI: Dr. Kathleen Curran",
       "highlights": [
         "Developed multimodal contrastive learning frameworks for medical diagnosis (ICCV 2023, NeurIPS 2024)",
-        "Built MRI–PET fusion and graph-based representation learning methods for Alzheimer's detection"
+        "Built MRI-PET fusion and graph-based representation learning methods for Alzheimer's detection"
       ]
     }
   ],
@@ -178,7 +178,7 @@
     },
     {
       "name": "Spurious Correlation Mitigation in CXR Images via Reinforcement Learning and Self-Supervision",
-      "website": "https://zenodo.org/",
+      "website": "https://zenodo.org/records/8245236",
       "releaseDate": "2023",
       "author": "Weichen Huang, K. Curran",
       "summary": "IMVIP 2023"
