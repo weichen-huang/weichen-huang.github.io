@@ -7,38 +7,35 @@
 </div>
 
 {% for entry in site.data.bio.work %}
-  <div class="twelve wide column no-bottom">
-    <p class="ui no-bottom"><b>{{ entry.position }}, {{ entry.company }}</b></p>
-    <p class="ui no-bottom"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-  </div>
-  <div class="four wide right aligned column no-bottom">
-    <p class="ui no-bottom"><b>
+<div class="twelve wide column no-bottom">
+  <p class="ui no-bottom"><b>{{ entry.position }}, {{ entry.company }}</b></p>
+  <p class="ui no-bottom"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a>
+  </p>
+</div>
+<div class="four wide right aligned column no-bottom">
+  <p class="ui no-bottom"><b>
       {% if entry.startDate %}
-        {{ entry.startDate | slice: 0,4 }}
+      {{ entry.startDate }}
       {% endif %}
       {% if entry.startDate and entry.endDate %}
-        -
+      -
       {% endif %}
       {% if entry.endDate %}
-        {% if entry.endDate != "Present" %}
-          {{ entry.endDate | slice: 0,4 }}
-         {% else %}
-          {{ entry.endDate }}
-        {% endif %}
+      {{ entry.endDate }}
       {% endif %}
     </b></p>
-  </div>
+</div>
 
-  <div style="padding-top: 0px;" class="sixteen wide column no-bottom">
-    <p class="ui no-bottom">{{ entry.summary }}</p>
-    {% if entry.highlights %}
-      <ul style="margin: 0px;">
-        {% for highlight in entry.highlights %}
-          <li>{{ highlight }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </div>
+<div style="padding-top: 0px;" class="sixteen wide column no-bottom">
+  <p class="ui no-bottom">{{ entry.summary }}</p>
+  {% if entry.highlights %}
+  <ul style="margin: 0px;">
+    {% for highlight in entry.highlights %}
+    <li>{{ highlight }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
 {% endfor %}
 
 {% endif %}
