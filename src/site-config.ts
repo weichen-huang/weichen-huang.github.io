@@ -137,7 +137,6 @@ export const config: Config = {
   },
   header: {
     menu: [
-      { title: 'Home', link: '/' },
       { title: 'Bio', link: '/bio' },
       { title: 'Projects', link: '/projects' },
       { title: 'Writing', link: '/writing' },
