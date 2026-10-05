@@ -37,7 +37,7 @@ jobs:
         run: pnpm build
         env:
           SITE_URL: https://${{ github.repository_owner }}.github.io
-          BASE_PATH: ${{ github.event.repository.name == format('{0}.github.io', github.repository_owner) && '' || format('/{0}/', github.event.repository.name) }}
+          BASE_PATH: ${{ github.event.repository.name == format('{0}.github.io', github.repository_owner) && '/' || format('/{0}/', github.event.repository.name) }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
