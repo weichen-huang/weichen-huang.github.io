@@ -1,0 +1,330 @@
+[
+  {
+    "title": "Purple Hibiscus",
+    "author": "Chimamanda Ngozi Adichie",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Piranesi",
+    "author": "Susanna Clarke",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "The Remains of the Day",
+    "author": "Kazuo Ishiguro",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "To Live",
+    "author": "Yu Hua",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "What If?",
+    "author": "Randall Munroe",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Ulysses",
+    "author": "James Joyce",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Scale",
+    "author": "Geoffrey West",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Gulliver’s Travels",
+    "author": "Jonathan Swift",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "No Longer at Ease",
+    "author": "Chinua Achebe",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Russia: Revolution and Civil War, 1917–1921",
+    "author": "Antony Beevor",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Storm of Steel",
+    "author": "Ernst Jünger",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Beyond the Wall",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "The Communist Manifesto",
+    "author": "Karl Marx & Friedrich Engels",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "The Prince",
+    "author": "Niccolò Machiavelli",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Blankets",
+    "author": "Craig Thompson",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Wittgenstein: A Very Short Introduction",
+    "author": "A. C. Grayling",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Mind Design III",
+    "author": "John Haugeland, Carl F. Craver & Colin Klein (editors)",
+    "kind": "Book",
+    "status": "Reading"
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "Chaos",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "The Art of Doing Science and Engineering",
+    "author": "Richard Hamming",
+    "kind": "Book",
+    "status": "Reading"
+  },
+  {
+    "title": "La Nausée",
+    "author": "Jean-Paul Sartre",
+    "kind": "Book",
+    "status": "Reading"
+  },
+  {
+    "title": "The Laws of Thought: The Quest for a Mathematical Theory of the Mind",
+    "author": "Tom Griffiths",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "Beyond Good and Evil",
+    "author": "Friedrich Nietzsche",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "Homage to Catalonia",
+    "author": "George Orwell",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "White Nights",
+    "author": "Fyodor Dostoevsky",
+    "kind": "Book",
+    "status": "Reading"
+  },
+  {
+    "title": "Thus Spoke Zarathustra",
+    "author": "Friedrich Nietzsche",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "Your Face Tomorrow",
+    "author": "Javier Marías",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "Corazón tan blanco",
+    "author": "Javier Marías",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "House of Leaves",
+    "author": "Mark Z. Danielewski",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "L’Étranger",
+    "author": "Albert Camus",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "Pale Fire",
+    "author": "Vladimir Nabokov",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "Nonlinear Dynamics and Chaos",
+    "author": "Steven H. Strogatz",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Fuzzy Logic with Engineering Applications",
+    "author": "Timothy J. Ross",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "A Concise Introduction to Pure Mathematics",
+    "author": "Martin Liebeck",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "The Art and Craft of Problem Solving",
+    "author": "Paul Zeitz",
+    "kind": "Book",
+    "status": "Reading"
+  },
+  {
+    "title": "Understanding Analysis",
+    "author": "Stephen Abbott",
+    "kind": "Book",
+    "status": "Reading"
+  },
+  {
+    "title": "Linear Algebra Done Right",
+    "author": "Sheldon Axler",
+    "kind": "Book",
+    "status": "Read"
+  },
+  {
+    "title": "What Is the Name of This Book?",
+    "author": "Raymond Smullyan",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Théorie analytique des probabilités",
+    "author": "Pierre-Simon Laplace",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Proofs from THE BOOK",
+    "author": "Martin Aigner & Günter M. Ziegler",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+    "author": "Douglas Hofstadter",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Logical Foundations of Mathematics and Computational Complexity: A Gentle Introduction",
+    "author": "Pavel Pudlák",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Conceptual Spaces: The Geometry of Thought",
+    "author": "Peter Gärdenfors",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow, Yoshua Bengio & Aaron Courville",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "Cognitive Science: An Introduction to the Science of the Mind",
+    "author": "José Luis Bermúdez",
+    "kind": "Book",
+    "status": "To read"
+  },
+  {
+    "title": "The Boy and the Heron",
+    "author": "Hayao Miyazaki",
+    "kind": "Film",
+    "status": "To watch"
+  },
+  {
+    "title": "Spirited Away",
+    "author": "Hayao Miyazaki",
+    "kind": "Film",
+    "status": "Watched"
+  }
+]

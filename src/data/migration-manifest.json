@@ -1,0 +1,55 @@
+{
+  "source": "https://weichen-huang.github.io/",
+  "pages": [
+    {
+      "oldPath": "/essays/covidEffEssay",
+      "newPath": "/writing/covideffessay"
+    },
+    {
+      "oldPath": "/essays/covidUnsupEssay",
+      "newPath": "/writing/covidunsupessay"
+    },
+    {
+      "oldPath": "/essays/perfectnumbers",
+      "newPath": "/writing/perfectnumbers"
+    },
+    {
+      "oldPath": "/essays/problems",
+      "newPath": "/writing/problems"
+    },
+    {
+      "oldPath": "/projects/saconvnets",
+      "newPath": "/projects/saconvnets"
+    },
+    {
+      "oldPath": "/projects/cxr_zs",
+      "newPath": "/projects/cxr_zs"
+    },
+    {
+      "oldPath": "/projects/mbind",
+      "newPath": "/projects/mbind"
+    },
+    {
+      "oldPath": "/projects/covidEfficientnet",
+      "newPath": "/projects/covidEfficientnet"
+    },
+    {
+      "oldPath": "/projects/wordle_solver",
+      "newPath": "/projects/wordle_solver"
+    },
+    {
+      "oldPath": "/extracurriculars/selfhelpafricaActivity",
+      "newPath": "/writing/selfhelpafricaactivity"
+    }
+  ],
+  "notes": [
+    "/notes/mathproblems.html",
+    "/notes/codeforcesproblems.html"
+  ],
+  "assetDirectories": [
+    "images",
+    "materials",
+    "videos",
+    "notes/images"
+  ]
+}

@@ -1,0 +1,32 @@
+---
+import { Image } from 'astro:assets'
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import { galleryPhotos } from '@/data/photos'
+---
+
+<BaseLayout title="Photos" description="A collection of skies, places, and quiet moments.">
+  <div class="editorial-page photos-page">
+    <header class="page-heading">
+      <h1>Photos</h1>
+      <p>Over the years.</p>
+    </header>
+    <div class="gallery-grid">
+      {galleryPhotos.map((photo, index) => (
+        <figure class:list={['gallery-item', index === 0 && 'gallery-featured']}>
+          <Image
+            src={photo.image}
+            alt={photo.alt}
+            widths={[640, 960, 1440, 1920].filter((width) => width <= photo.image.width)}
+            sizes={
+              index === 0
+                ? '(max-width: 960px) calc(100vw - 48px), 860px'
+                : '(max-width: 560px) calc(100vw - 48px), (max-width: 960px) 45vw, 410px'
+            }
+            loading={index === 0 ? 'eager' : 'lazy'}
+          />
+          <figcaption>{photo.caption}</figcaption>
+        </figure>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

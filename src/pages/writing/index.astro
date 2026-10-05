@@ -1,0 +1,28 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import PostCard from '@/components/PostCard.astro'
+import { getBlogCollection, sortMDByDate } from '@/utils/server'
+const posts = sortMDByDate(await getBlogCollection())
+---
+
+<BaseLayout title="Writing" description="Notes on research, software, and the things in between.">
+  <div class="editorial-page">
+    <header class="page-heading">
+      <h1>Writing</h1>
+      <p>I'll update this regularly, I swear.</p>
+    </header>
+    {posts.length ? (
+      <div class="flex flex-col">
+        {posts.map((post) => (
+          <PostCard post={post} />
+        ))}
+      </div>
+    ) : (
+      <div class="quiet-empty">
+        <span class="i-lucide-feather size-7" aria-hidden="true" />
+        <h2>TODO: Writing.</h2>
+        <p>TODO: Add your essays and notes.</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

@@ -1,0 +1,369 @@
+---
+import { config } from '@/site-config'
+import { withBase } from '@/utils'
+
+const pathname = Astro.url.pathname.replace(/\/$/, '') || '/'
+const isActive = (link: string) => {
+  const href = withBase(link).replace(/\/$/, '') || '/'
+  return link === '/' ? pathname === href : pathname === href || pathname.startsWith(`${href}/`)
+}
+---
+
+<header class="site-header not-prose" id="site-header">
+  <div class="nav-pill">
+    <a href={withBase('/')} class="site-brand" aria-label={`${config.site.title} — home`}>
+      <span>Weichen</span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary navigation">
+      {config.header.menu.map((item) => (
+        <a
+          href={withBase(item.link)}
+          aria-current={isActive(item.link) ? 'page' : undefined}
+          data-astro-prefetch
+        >
+          {item.title}
+        </a>
+      ))}
+    </nav>
+    <details class="site-options">
+      <summary aria-label="Site options" title="Site options">
+        <span class="i-lucide-ellipsis size-5" aria-hidden="true" />
+      </summary>
+      <div class="options-panel">
+        {config.search.enabled && (
+          <a href={withBase('/search')}>
+            <span class="i-lucide-search size-4" aria-hidden="true" />
+            Search
+          </a>
+        )}
+        <button
+          id="theme-toggle"
+          type="button"
+          title="Cycle system, light, and dark theme"
+          aria-label="Toggle theme"
+        >
+          <span class="i-lucide-monitor icon-system size-4" aria-hidden="true" />
+          <span class="i-lucide-sun icon-light size-4" aria-hidden="true" />
+          <span class="i-lucide-moon icon-dark size-4" aria-hidden="true" />
+          <span>Appearance</span>
+        </button>
+        <button
+          id="palette-toggle"
+          type="button"
+          title="Switch ink and fresh palettes"
+          aria-label="Switch palette (ink / fresh)"
+        >
+          <span class="i-lucide-feather icon-ink size-4" aria-hidden="true" />
+          <span class="i-lucide-leaf icon-fresh hidden size-4" aria-hidden="true" />
+          <span>Palette</span>
+        </button>
+        <hr />
+        <a href={withBase('/archives')}>
+          <span class="i-lucide-archive size-4" aria-hidden="true" />
+          Archives
+        </a>
+        <a href={withBase('/rss.xml')}>
+          <span class="i-lucide-rss size-4" aria-hidden="true" />
+          RSS
+        </a>
+      </div>
+    </details>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 24px;
+    z-index: 40;
+    width: min(860px, calc(100% - 48px));
+    margin: 24px auto 0;
+    flex-shrink: 0;
+  }
+  .nav-pill {
+    display: flex;
+    align-items: center;
+    min-height: 64px;
+    padding: 0 22px 0 28px;
+    border: 1px solid hsl(var(--line) / 0.7);
+    border-radius: 999px;
+    background: hsl(var(--paper) / 0.9);
+    backdrop-filter: blur(18px) saturate(0.8);
+    -webkit-backdrop-filter: blur(18px) saturate(0.8);
+    box-shadow:
+      0 4px 24px rgb(0 0 0 / 0.025),
+      inset 0 1px 0 hsl(var(--card) / 0.4);
+  }
+  .site-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 28px;
+    margin-right: 22px;
+    border-right: 1px solid hsl(var(--ink-soft) / 0.22);
+    font-family: var(--font-serif);
+    font-size: 22px;
+    white-space: nowrap;
+  }
+  .primary-nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+  }
+  .primary-nav a {
+    position: relative;
+    padding: 17px 12px;
+    font-size: 15px;
+    color: hsl(var(--ink-soft));
+    transition: color 0.2s ease;
+  }
+  .primary-nav a:hover,
+  .primary-nav a[aria-current] {
+    color: hsl(var(--ink));
+  }
+  .primary-nav a[aria-current]::after {
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 3px;
+    background: currentColor;
+    border-radius: 50%;
+    bottom: 9px;
+    left: calc(50% - 1.5px);
+  }
+  .site-options {
+    position: relative;
+    margin-left: 12px;
+  }
+  .site-options summary {
+    width: 30px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+    color: hsl(var(--ink-soft));
+    border-radius: 50%;
+  }
+  .site-options summary::-webkit-details-marker {
+    display: none;
+  }
+  .site-options summary:hover {
+    background: hsl(var(--ink-soft) / 0.1);
+  }
+  .options-panel {
+    position: absolute;
+    top: 48px;
+    right: -10px;
+    width: 192px;
+    padding: 8px;
+    border-radius: 18px;
+    background: hsl(var(--paper) / 1);
+    border: 1px solid hsl(var(--line));
+    box-shadow: 0 10px 32px rgb(0 0 0 / 0.12);
+    color: hsl(var(--ink));
+  }
+  .options-panel a,
+  .options-panel button {
+    width: 100%;
+    padding: 11px 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .options-panel a:hover,
+  .options-panel button:hover {
+    background: hsl(var(--wash));
+  }
+  .options-panel hr {
+    margin: 6px 10px;
+  }
+  #theme-toggle .icon-system,
+  #theme-toggle .icon-light,
+  #theme-toggle .icon-dark {
+    display: none;
+  }
+  :global(html[data-theme='system']) #theme-toggle .icon-system,
+  :global(html[data-theme='light']) #theme-toggle .icon-light,
+  :global(html[data-theme='dark']) #theme-toggle .icon-dark {
+    display: inline-block;
+  }
+  :global(html[data-palette='fresh']) #palette-toggle .icon-ink {
+    display: none;
+  }
+  :global(html[data-palette='fresh']) #palette-toggle .icon-fresh {
+    display: inline-block;
+  }
+  :global(.home-page) .site-header {
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0;
+  }
+  :global(.home-page) .nav-pill {
+    color: #fff;
+    background: rgb(113 117 130 / 0.23);
+    border-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(24px) saturate(0.75);
+    -webkit-backdrop-filter: blur(24px) saturate(0.75);
+    box-shadow:
+      0 6px 32px rgb(0 0 0 / 0.09),
+      inset 0 1px 1px rgb(255 255 255 / 0.12);
+  }
+  :global(.home-page) .site-brand {
+    border-color: rgb(255 255 255 / 0.3);
+  }
+  :global(.home-page) .primary-nav a,
+  :global(.home-page) .site-options summary {
+    color: rgb(255 255 255 / 0.8);
+  }
+  :global(.home-page) .primary-nav a:hover,
+  :global(.home-page) .primary-nav a[aria-current] {
+    color: #fff;
+  }
+  @media (max-width: 760px) {
+    .site-header {
+      width: calc(100% - 28px);
+      top: 14px;
+      margin-top: 14px;
+    }
+    .nav-pill {
+      padding: 0 14px;
+      min-height: 60px;
+    }
+    .site-brand {
+      font-size: 20px;
+      margin-right: 12px;
+      padding-right: 16px;
+    }
+    .primary-nav a {
+      padding-inline: 7px;
+      font-size: 14px;
+    }
+    .site-options {
+      margin-left: 4px;
+    }
+    :global(.home-page) .site-header {
+      top: 20px;
+    }
+  }
+  .site-header.is-opaque .nav-pill {
+    background: hsl(var(--paper) / 1);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  @media (max-width: 560px) {
+    .nav-pill {
+      flex-wrap: nowrap;
+      min-height: 58px;
+      padding: 0 10px 0 16px;
+      border-radius: 999px;
+    }
+    .site-brand {
+      font-size: 18px;
+      gap: 7px;
+      padding-right: 12px;
+      margin-right: 8px;
+      flex-shrink: 0;
+    }
+    .primary-nav {
+      min-width: 0;
+      display: flex;
+      justify-content: flex-start;
+      overflow-x: auto;
+      overflow-y: hidden;
+      gap: 3px;
+      scrollbar-width: none;
+      overscroll-behavior-x: contain;
+      -webkit-overflow-scrolling: touch;
+      scroll-padding-inline: 10px;
+      mask-image: linear-gradient(
+        to right,
+        transparent,
+        #000 7px,
+        #000 calc(100% - 7px),
+        transparent
+      );
+    }
+    .primary-nav::-webkit-scrollbar {
+      display: none;
+    }
+    .primary-nav a {
+      flex-shrink: 0;
+      font-size: 14px;
+      padding: 18px 11px;
+      white-space: nowrap;
+    }
+    .primary-nav a[aria-current]::after {
+      bottom: 10px;
+    }
+    .site-options {
+      flex-shrink: 0;
+      margin-left: 4px;
+    }
+    .options-panel {
+      top: 46px;
+      z-index: 2;
+    }
+  }
+</style>
+
+<script>
+  const header = document.getElementById('site-header')
+  const nav = header?.querySelector<HTMLElement>('.primary-nav')
+  const active = nav?.querySelector<HTMLElement>('[aria-current="page"]')
+  const headings = [...document.querySelectorAll<HTMLElement>('main h1, main h2, main h3')]
+  let pendingFrame = false
+  const updateHeader = () => {
+    if (!header) return
+    const pill = header.getBoundingClientRect()
+    const overlaps = headings.some((heading) => {
+      const rect = heading.getBoundingClientRect()
+      return (
+        rect.bottom > pill.top &&
+        rect.top < pill.bottom &&
+        rect.right > pill.left &&
+        rect.left < pill.right
+      )
+    })
+    header.classList.toggle('is-opaque', overlaps)
+  }
+  const onScroll = () => {
+    if (pendingFrame) return
+    pendingFrame = true
+    requestAnimationFrame(() => {
+      updateHeader()
+      pendingFrame = false
+    })
+  }
+  const alignActiveTab = () => {
+    if (nav && active && nav.scrollWidth > nav.clientWidth) {
+      nav.scrollLeft =
+        active.offsetLeft - nav.offsetLeft - (nav.clientWidth - active.clientWidth) / 2
+    }
+    updateHeader()
+  }
+  alignActiveTab()
+  window.addEventListener('scroll', onScroll, { passive: true })
+  window.addEventListener('resize', alignActiveTab)
+  document.fonts.ready.then(alignActiveTab)
+
+  const options = document.querySelector<HTMLDetailsElement>('.site-options')
+  document.addEventListener('click', (event) => {
+    if (options?.open && event.target instanceof Node && !options.contains(event.target))
+      options.open = false
+  })
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && options?.open) {
+      options.open = false
+      options.querySelector<HTMLElement>('summary')?.focus()
+    }
+  })
+</script>

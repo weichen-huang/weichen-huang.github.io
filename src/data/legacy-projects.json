@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "saconvnets",
+    "title": "SAConvnets",
+    "year": "2022",
+    "category": "AI · MachineLearning · ClimateChange",
+    "description": "A novel approach to extreme weather forecasting",
+    "context": "",
+    "paragraphs": [],
+    "highlights": [],
+    "links": [],
+    "sourceId": "saconvnets",
+    "cover": "/images/prism.png"
+  },
+  {
+    "slug": "cxr_zs",
+    "title": "Disease prediction and report generation demo",
+    "year": "2023",
+    "category": "AI · Deep learning · Information Retrieval",
+    "description": "Demonstration of BTYSTE 2023 project",
+    "context": "",
+    "paragraphs": [],
+    "highlights": [],
+    "links": [],
+    "sourceId": "cxr_zs",
+    "cover": "/images/cxr.jpeg"
+  },
+  {
+    "slug": "mbind",
+    "title": "Artificial Multimodal Intelligence for Alzheimer’s Disease Diagnosis and Aetiology Analysis",
+    "year": "2024",
+    "category": "AI · MachineLearning",
+    "description": "Multimodal intelligence for Alzheimer’s disease diagnosis and aetiology analysis.",
+    "context": "",
+    "paragraphs": [],
+    "highlights": [],
+    "links": [],
+    "sourceId": "mbind",
+    "cover": "/images/mri.jpg"
+  },
+  {
+    "slug": "covidEfficientnet",
+    "title": "COVID-Efficientnet",
+    "year": "2020",
+    "category": "AI · MachineLearning · COVID",
+    "description": "I implemented Efficientnet for COVID-19 detection using x-ray imaging.",
+    "context": "",
+    "paragraphs": [],
+    "highlights": [],
+    "links": [],
+    "sourceId": "covidefficientnet",
+    "cover": "/images/COVID.png"
+  },
+  {
+    "slug": "wordle_solver",
+    "title": "Entropy Solver",
+    "year": "2022",
+    "category": "AI · Statistics · Information Retrieval",
+    "description": "Wordle Solver using statistical entropy",
+    "context": "",
+    "paragraphs": [],
+    "highlights": [],
+    "links": [],
+    "sourceId": "wordle_solver",
+    "cover": "/images/wordle.png"
+  }
+]

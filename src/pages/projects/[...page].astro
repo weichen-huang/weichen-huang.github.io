@@ -1,0 +1,50 @@
+---
+import type { GetStaticPaths, Page } from 'astro'
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import Pagination from '@/components/Pagination.astro'
+import { projects, type Project } from '@/data/projects'
+import { withBase } from '@/utils'
+export const getStaticPaths = (({ paginate }) =>
+  paginate(projects, { pageSize: 4 })) satisfies GetStaticPaths
+interface Props {
+  page: Page<Project>
+}
+const { page } = Astro.props
+---
+
+<BaseLayout title="Projects" description="Selected research and projects by Weichen Huang.">
+  <div class="editorial-page">
+    <header class="page-heading">
+      <h1>Projects</h1>
+      <p>Operationalized shower thoughts.</p>
+    </header>
+    <div class="project-list">
+      {page.data.map((project, index) => (
+        <a class="project-row" href={withBase(`/projects/${project.slug}`)} data-astro-prefetch>
+          <span class="project-number" aria-hidden="true">
+            {String(page.start + index + 1).padStart(2, '0')}
+          </span>
+          <div>
+            <h2>{project.title}</h2>
+            <p class="project-description">{project.description}</p>
+          </div>
+          <div class="project-tail">
+            <span>{project.year}</span>
+            <span class="project-arrow" aria-hidden="true">
+              ↗
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+    <div class="list-pagination">
+      <p class="eyebrow">
+        {page.currentPage} / {page.lastPage}
+      </p>
+      <Pagination
+        prev={page.url.prev ? { title: 'Previous projects', url: page.url.prev } : undefined}
+        next={page.url.next ? { title: 'More projects', url: page.url.next } : undefined}
+      />
+    </div>
+  </div>
+</BaseLayout>

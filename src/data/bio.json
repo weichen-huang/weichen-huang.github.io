@@ -1,0 +1,271 @@
+{
+  "basics": {
+    "name": "Weichen Huang",
+    "label": "AI & Computational Neuroscience Researcher",
+    "picture": "https://weichen-huang.github.io/images/betterphoto.jpeg",
+    "email": "wh@gatech.edu",
+    "phone": "+1-943-235-5093",
+    "website": "https://weichen-huang.github.io",
+    "summary": "B.S. Computer Science @ Georgia Tech",
+    "location": {
+      "address": "",
+      "postalCode": "30332",
+      "city": "Atlanta",
+      "countryCode": "USA",
+      "region": "Georgia"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "weichen-huang",
+        "url": "http://github.com/weichen-huang"
+      },
+      {
+        "network": "linkedin",
+        "username": "weichenhuang1",
+        "url": "https://www.linkedin.com/in/weichenhuang1"
+      },
+      {
+        "network": "google-scholar",
+        "username": "weichen-huang",
+        "url": "https://scholar.google.com/citations?user=SSOtC7EAAAAJ"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Mechanistic Interpretability",
+      "keywords": []
+    },
+    {
+      "name": "Representation Learning",
+      "keywords": []
+    },
+    {
+      "name": "Computational Neuroscience",
+      "keywords": []
+    },
+    {
+      "name": "Multimodal Learning",
+      "keywords": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "C++"
+      ]
+    },
+    {
+      "name": "Research Areas",
+      "level": "",
+      "keywords": [
+        "Mechanistic Interpretability",
+        "Representation Learning",
+        "Computer Vision",
+        "NLP",
+        "Computational Neuroscience"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "area": "Atlanta, GA",
+      "studyType": "B.S. in Computer Science (Class of 2029)",
+      "startDate": "2025",
+      "endDate": "Present",
+      "gpa": "4.0/4.0",
+      "courses": [
+        "Theoretical Linear Algebra (MATH 3406)",
+        "Probability & Statistics (MATH 3215)",
+        "Applied Combinatorics (MATH 3012)",
+        "General Psychology (PSYC 1101)"
+      ]
+    },
+    {
+      "institution": "St Andrew's College",
+      "area": "Dublin, Ireland",
+      "studyType": "International Baccalaureate",
+      "startDate": "2019",
+      "endDate": "2025",
+      "gpa": "43/45; SAT 1580",
+      "courses": [
+        "HL: Math AA (7), Physics (7), Chemistry (7)"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Georgia Tech - Language Intelligence Lab",
+      "position": "Undergraduate Researcher",
+      "website": "https://www.language-intelligence-thought.net/",
+      "startDate": "Oct 2025",
+      "endDate": "Present",
+      "summary": "PI: Dr. Anna Ivanova",
+      "highlights": [
+        "Probed hidden activations with linear probes to test which representational subspaces best predict neural responses.",
+        "Explored prompt recovery from hidden activations as a diagnostic for semantic compression.",
+        "Implemented representational similarity analysis between LLM hidden states and voxel-wise fMRI responses."
+      ]
+    },
+    {
+      "company": "MIT - DiCarlo Lab",
+      "position": "RSI Researcher",
+      "website": "https://dicarlolab.mit.edu/",
+      "startDate": "Jun 2024",
+      "endDate": "Oct 2024",
+      "summary": "PI: Dr. James J. DiCarlo",
+      "highlights": [
+        "Implemented CKA and RSA to investigate representation geometry and architectural inductive biases.",
+        "Contributed model analysis, representation similarity experiments, and hypothesis testing to an ICLR 2025 paper."
+      ]
+    },
+    {
+      "company": "University College Dublin",
+      "position": "Research Intern",
+      "website": "",
+      "startDate": "Feb 2023",
+      "endDate": "Jan 2025",
+      "summary": "",
+      "highlights": [
+        "Studied spurious correlations in chest X-ray interpretation using reinforcement learning and self-/semi-supervised training.",
+        "Developed MRI–PET fusion with dynamic image compression and evaluated it on ADNI.",
+        "Built multimodal contrastive learning with tabular attention, improving Alzheimer’s prediction accuracy to above 83.8%.",
+        "Proposed adaptive graph construction for learning from varying numbers of modalities."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Big O Theory Club · Georgia Tech",
+      "website": "https://theoryclub.github.io/",
+      "startDate": "Fall 2026",
+      "endDate": "Present",
+      "position": "Officer",
+      "summary": "Theoretical computer science and student research",
+      "highlights": []
+    },
+    {
+      "organization": "AI Safety Initiative (AISI) · Georgia Tech",
+      "website": "https://www.aisi.dev/team",
+      "startDate": "Fall 2026",
+      "endDate": "Present",
+      "position": "Operations Team",
+      "summary": "AI safety research, education, and outreach",
+      "highlights": []
+    },
+    {
+      "organization": "RSI-MIT 2024",
+      "website": "https://www.cee.org/programs/research-science-institute",
+      "startDate": "2024",
+      "endDate": "2024",
+      "position": "Rickoid",
+      "summary": "Research Science Institute at MIT (22 June - 3 August)",
+      "highlights": [
+        "Presented 'Convergent Neural Representations' research at MIT BCS DiCarlo Lab"
+      ]
+    },
+    {
+      "organization": "ICLR 2025",
+      "website": "https://iclr.cc/",
+      "startDate": "2025",
+      "endDate": "2025",
+      "position": "Reviewer",
+      "summary": "Conference Reviewer for ICLR 2025",
+      "highlights": []
+    }
+  ],
+  "publications": [
+    {
+      "name": "Vision Models Trained to Estimate Spatial Latents Learn Ventral-Stream-Aligned Representations",
+      "website": "https://openreview.net/pdf?id=emMMa4q0qw",
+      "releaseDate": "2025",
+      "author": "Y. Xie, W. Huang, E. Alter, J. Schwartz, J. Tenenbaum, J. DiCarlo",
+      "summary": "ICLR 2025"
+    },
+    {
+      "name": "Multimodal Representation Learning using Adaptive Graph Construction",
+      "website": "https://arxiv.org/abs/2410.06395",
+      "releaseDate": "2024",
+      "author": "Weichen Huang",
+      "summary": "NeurIPS 2024 (High School Projects, top 4/335)"
+    },
+    {
+      "name": "Multimodal Contrastive Learning and Tabular Attention for Automated Alzheimer's Disease Prediction",
+      "website": "https://arxiv.org/abs/2308.15469",
+      "releaseDate": "2023",
+      "author": "Weichen Huang",
+      "summary": "ICCV 2023"
+    },
+    {
+      "name": "Spurious Correlation Mitigation in CXR Images via Reinforcement Learning and Self-Supervision",
+      "website": "https://zenodo.org/records/8245236",
+      "releaseDate": "2023",
+      "author": "Weichen Huang, K. Curran",
+      "summary": "IMVIP 2023"
+    },
+    {
+      "name": "Feature Scaling and Attention Convolutions for Extreme Precipitation Prediction",
+      "website": "https://arxiv.org/abs/2201.13408",
+      "releaseDate": "2022",
+      "author": "Weichen Huang",
+      "summary": "ACM KDD 2022 Workshop"
+    },
+    {
+      "name": "Improved Multimodal Diagnosis of Alzheimer’s Disease through MRI and PET Image Fusion",
+      "releaseDate": "2023",
+      "author": "Z. Chang, W. Huang, K. Curran",
+      "summary": "RSNA 2023",
+      "website": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": "NeurIPS'24 Paper Award",
+      "date": "2024",
+      "awarder": "NeurIPS",
+      "summary": "High School Projects track (top 4/335)"
+    },
+    {
+      "title": "IOI Irish National Team",
+      "date": "2025",
+      "awarder": "IOI",
+      "summary": "International Olympiad in Informatics"
+    },
+    {
+      "title": "USACO Gold",
+      "date": "2023",
+      "awarder": "USACO",
+      "summary": ""
+    },
+    {
+      "title": "RSI 2024 Scholar",
+      "date": "2024",
+      "awarder": "CEE/MIT",
+      "summary": "Research Science Institute at MIT"
+    },
+    {
+      "title": "ICLR 2025 Reviewer",
+      "date": "2025",
+      "awarder": "ICLR",
+      "summary": ""
+    },
+    {
+      "title": "BT Young Scientist Winner",
+      "date": "2021-2024",
+      "awarder": "BTYSE",
+      "summary": "4x Category Winner (2021-2024); Irish Research Council Award (2024)"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available on request",
+      "reference": ""
+    }
+  ]
+}

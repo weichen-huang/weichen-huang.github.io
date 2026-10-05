@@ -1,0 +1,77 @@
+---
+import type { GetStaticPaths } from 'astro'
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import { withBase } from '@/utils'
+const bodies = import.meta.glob<string>('/src/content/notes/*.html', {
+  query: '?raw',
+  import: 'default',
+  eager: true
+})
+const styles = import.meta.glob<string>('/src/content/notes/*.css', {
+  query: '?raw',
+  import: 'default',
+  eager: true
+})
+export const getStaticPaths = (() => [
+  { params: { note: 'mathproblems' }, props: { title: 'Math problem notes' } },
+  { params: { note: 'codeforcesproblems' }, props: { title: 'Codeforces problem notes' } }
+]) satisfies GetStaticPaths
+const note = Astro.params.note!
+const { title } = Astro.props
+const body = bodies[`/src/content/notes/${note}.html`].replaceAll(
+  'src="/notes/',
+  `src="${withBase('/notes/')}`
+)
+const css = styles[`/src/content/notes/${note}.css`]
+---
+
+<BaseLayout title={title} description={title}>
+  <article class="editorial-page">
+    <a class="back-link" href={withBase('/writing/problems')}>
+      ← A potpourri of programming and math
+    </a>
+    <header class="page-heading">
+      <h1>{title}</h1>
+    </header>
+    <style is:inline set:html={`@scope (.legacy-notebook) { ${css} }`} />
+    <div class="legacy-notebook" set:html={body} />
+  </article>
+</BaseLayout>
+<style is:global>
+  .legacy-notebook {
+    width: 100%;
+    overflow-wrap: anywhere;
+  }
+  .legacy-notebook icons {
+    display: none;
+  }
+  .legacy-notebook .html-note {
+    margin-bottom: 52px;
+    padding-top: 28px;
+    border-top: 1px solid hsl(var(--line));
+  }
+  .legacy-notebook h1 {
+    font-size: 25px !important;
+    margin-bottom: 24px;
+  }
+  .legacy-notebook :is(en-note, p, span, li, a, td, h1, h2, h3) {
+    font-family: var(--font-serif) !important;
+    color: hsl(var(--ink)) !important;
+  }
+  .legacy-notebook en-note {
+    padding: 0 0 30px !important;
+    max-width: 100% !important;
+    background: transparent !important;
+  }
+  .legacy-notebook img {
+    max-width: 100%;
+    height: auto;
+  }
+  .legacy-notebook pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+  .legacy-notebook a {
+    text-decoration: underline;
+  }
+</style>

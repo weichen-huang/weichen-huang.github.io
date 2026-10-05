@@ -1,0 +1,229 @@
+---
+import { Image } from 'astro:assets'
+import babyPhoto from '../../../photos/babyphoto.jpeg'
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import { config } from '@/site-config'
+import bio from '@/data/bio.json'
+import { withBase } from '@/utils'
+const publications = [...bio.publications].sort(
+  (a, b) => Number(b.releaseDate) - Number(a.releaseDate)
+)
+---
+
+<BaseLayout
+  title="Bio"
+  description="About Weichen Huang — computer science, representations, and the connections between artificial and biological intelligence."
+>
+  <article class="editorial-page bio-page">
+    <header class="page-heading">
+      <h1>Bio</h1>
+    </header>
+    <div class="bio-intro">
+      <div>
+        <h2>Hi, I’m Weichen.</h2>
+        <p>{config.home.hero.about}</p>
+        <p>
+          I’m particularly interested in what language and vision models learn, how we can
+          understand their internal representations, and where those representations meet the human
+          brain.
+        </p>
+        <div class="detail-links">
+          <a class="link-ink" href="mailto:wh@gatech.edu">
+            Email ↗
+          </a>
+          <a
+            class="link-ink"
+            href="https://scholar.google.com/citations?user=SSOtC7EAAAAJ"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Google Scholar ↗
+          </a>
+          <a
+            class="link-ink"
+            href="https://www.linkedin.com/in/weichenhuang1/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn ↗
+          </a>
+          <a class="link-ink" href={withBase('/materials/Weichen_Resume.pdf')}>
+            CV ↗
+          </a>
+        </div>
+      </div>
+      <figure>
+        <Image
+          src={babyPhoto}
+          alt="Weichen as a baby, sitting beside a laptop"
+          widths={[400, 640, 960]}
+          sizes="(max-width: 640px) calc(100vw - 48px), 280px"
+          loading="eager"
+          class="bio-photo"
+        />
+        <figcaption>"15+ years of computer experience?" No problem.</figcaption>
+      </figure>
+    </div>
+    <section class="bio-section">
+      <h2>Research</h2>
+      <div class="timeline">
+        {bio.work.map((work) => (
+          <div>
+            <p class="timeline-date">
+              {work.startDate}–{work.endDate}
+            </p>
+            <h3>
+              {work.website ? (
+                <a class="link-ink" href={work.website} target="_blank" rel="noreferrer">
+                  {work.company}
+                </a>
+              ) : (
+                work.company
+              )}
+            </h3>
+            <p>
+              {work.position}
+              {work.summary && ` · ${work.summary}`}
+            </p>
+            <ul class="bio-bullets">
+              {work.highlights.map((highlight) => (
+                <li>{highlight}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <a href={withBase('/projects')} class="link-ink">
+        Explore the projects ↗
+      </a>
+    </section>
+    <section class="bio-section">
+      <h2>Publications</h2>
+      <div class="publication-list">
+        {publications.map((publication) => (
+          <article class="publication-row">
+            <h3>
+              {publication.website ? (
+                <a class="link-ink" href={publication.website} target="_blank" rel="noreferrer">
+                  {publication.name} ↗
+                </a>
+              ) : (
+                publication.name
+              )}
+            </h3>
+            <p>{publication.author}</p>
+            <p class="timeline-date">
+              {publication.summary} · {publication.releaseDate}
+            </p>
+          </article>
+        ))}
+      </div>
+    </section>
+    <section class="bio-section">
+      <h2>Education</h2>
+      <div class="timeline">
+        {bio.education.map((education) => (
+          <div>
+            <p class="timeline-date">
+              {education.startDate}–{education.endDate}
+            </p>
+            <h3>{education.institution}</h3>
+            <p>
+              {education.studyType} · {education.area}
+              <br />
+              {education.institution.startsWith('Georgia') ? 'GPA' : 'IB'}: {education.gpa}
+            </p>
+            {education.courses.length > 0 && <p>{education.courses.join('; ')}.</p>}
+          </div>
+        ))}
+      </div>
+    </section>
+    <section class="bio-section">
+      <h2>Skills & interests</h2>
+      <p>{bio.interests.map((interest) => interest.name).join(' · ')}</p>
+      <div class="bio-skill-groups">
+        {config.home.skills?.map((group) => (
+          <div>
+            <h3>{group.title}</h3>
+            <p>{group.items.join(' · ')}</p>
+          </div>
+        ))}
+        <div>
+          <h3>Programming & mathematics</h3>
+          <p>Python · C++ · Linear algebra · Probability · Optimization</p>
+        </div>
+      </div>
+    </section>
+    <section class="bio-section">
+      <h2>Activities</h2>
+      <div class="timeline">
+        {bio.volunteer.map((activity) => (
+          <div>
+            <p class="timeline-date">
+              {activity.startDate}
+              {activity.endDate === 'Present' && '–Present'}
+            </p>
+            <h3>
+              <a class="link-ink" href={activity.website} target="_blank" rel="noreferrer">
+                {activity.organization}
+              </a>
+            </h3>
+            <p>
+              {activity.position} · {activity.summary}
+            </p>
+            {activity.highlights.map((highlight) => (
+              <p>{highlight}</p>
+            ))}
+          </div>
+        ))}
+        <div>
+          <p class="timeline-date">Competitive programming</p>
+          <h3>IOI, USACO & ICPC</h3>
+          <p>
+            Ireland’s IOI team in 2025, USACO Gold since 2023, and Georgia Tech’s ICPC Regional in
+            2025.
+          </p>
+        </div>
+        <div>
+          <h3>
+            <a class="link-ink" href={withBase('/writing/selfhelpafricaactivity')}>
+              Self Help Africa ↗
+            </a>
+          </h3>
+          <p>
+            Presented research on extreme precipitation forecasting with attention-augmented
+            convolutions.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="bio-section">
+      <h2>Awards</h2>
+      <div class="timeline">
+        {bio.awards.map((award) => (
+          <div>
+            <p class="timeline-date">{award.date}</p>
+            <h3>{award.title}</h3>
+            {award.summary && <p>{award.summary}</p>}
+          </div>
+        ))}
+      </div>
+    </section>
+    <section class="bio-section">
+      <h2>Contact</h2>
+      <p>
+        {bio.basics.location.city}, {bio.basics.location.region} {bio.basics.location.postalCode},{' '}
+        {bio.basics.location.countryCode}
+        <br />
+        <a class="link-ink" href={`mailto:${bio.basics.email}`}>
+          {bio.basics.email}
+        </a>
+        <br />
+        <a class="link-ink" href={`tel:${bio.basics.phone}`}>
+          {bio.basics.phone}
+        </a>
+      </p>
+      <p>References available on request.</p>
+    </section>
+  </article>
+</BaseLayout>

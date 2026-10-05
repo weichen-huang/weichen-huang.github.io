@@ -1,0 +1,15 @@
+{
+  "/essays/covidEffEssay": "/writing/covideffessay",
+  "/essays/covidUnsupEssay": "/writing/covidunsupessay",
+  "/essays/perfectnumbers": "/writing/perfectnumbers",
+  "/essays/problems": "/writing/problems",
+  "/projects/saconvnets": "/projects/saconvnets",
+  "/projects/cxr_zs": "/projects/cxr_zs",
+  "/projects/mbind": "/projects/mbind",
+  "/projects/covidEfficientnet": "/projects/covidEfficientnet",
+  "/projects/wordle_solver": "/projects/wordle_solver",
+  "/extracurriculars/selfhelpafricaActivity": "/writing/selfhelpafricaactivity",
+  "/essays": "/writing",
+  "/extracurriculars": "/bio",
+  "/projects/cxr-predict": "/projects/cxr_zs"
+}

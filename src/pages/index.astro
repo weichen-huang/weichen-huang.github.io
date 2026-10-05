@@ -1,0 +1,229 @@
+---
+import { getImage } from 'astro:assets'
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import { config } from '@/site-config'
+import { withBase } from '@/utils'
+import { scenes } from '@/data/photos'
+import daylightScript from '@/scripts/daylight.js?raw'
+
+const optimizedScenes = await Promise.all(
+  scenes.map(async (scene) => {
+    const sizes = await Promise.all(
+      [768, 1280, 1920, 2560]
+        .filter((width) => width <= scene.image.width)
+        .map(async (width) => {
+          const image = await getImage({ src: scene.image, width, format: 'webp', quality: 82 })
+          return { src: image.src, width }
+        })
+    )
+    return {
+      id: scene.id,
+      copyPosition: scene.copyPosition,
+      label: scene.label,
+      alt: scene.alt,
+      src: sizes.at(-1)!.src,
+      srcset: sizes.map((size) => `${size.src} ${size.width}w`).join(', ')
+    }
+  })
+)
+const fallback = optimizedScenes.find((scene) => scene.id === 'evening')!
+---
+
+<BaseLayout home>
+  <section
+    id="daylight-hero"
+    class="daylight-hero"
+    aria-label="A view that changes with your local time"
+  >
+    <div class="hero-landscape">
+      <img class="hero-photo" alt="" width="2560" height="1920" fetchpriority="high" />
+      <img class="hero-photo" alt="" width="2560" height="1920" />
+      <noscript>
+        <img
+          class="hero-photo is-visible"
+          src={fallback.src}
+          srcset={fallback.srcset}
+          sizes="100vw"
+          alt={fallback.alt}
+          width="2560"
+          height="1920"
+        />
+      </noscript>
+      <div class="hero-shade" aria-hidden="true"></div>
+    </div>
+    <script
+      id="daylight-scenes"
+      is:inline
+      type="application/json"
+      set:html={JSON.stringify(optimizedScenes)}
+    />
+    <script is:inline set:html={daylightScript} />
+    <div class="hero-copy">
+      <h1>{config.site.author}</h1>
+      <p>{config.home.hero.tagline}</p>
+    </div>
+    <a class="scroll-cue" href="#welcome">
+      <span>scroll</span>
+      <span class="scroll-line" aria-hidden="true"></span>
+    </a>
+  </section>
+  <section id="welcome" class="home-welcome">
+    <h2>Hello, I’m Weichen.</h2>
+    <p class="welcome-text">{config.home.hero.about}</p>
+    <div class="welcome-links">
+      <a class="link-ink" href={withBase('/bio')}>
+        A little about me <span aria-hidden="true">↗</span>
+      </a>
+      <a class="link-ink" href={withBase('/projects')}>
+        Explore my work <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .daylight-hero {
+    position: relative;
+    height: 100svh;
+    min-height: 540px;
+    overflow: hidden;
+    color: #fff;
+    background: #17252c;
+  }
+  .hero-landscape,
+  .hero-shade,
+  .hero-photo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-photo {
+    object-fit: cover;
+    object-position: center;
+    opacity: 0;
+    transition: opacity 1.8s ease;
+  }
+  .hero-photo.is-visible {
+    opacity: 1;
+  }
+  .hero-shade {
+    background: linear-gradient(
+      180deg,
+      rgb(7 13 22 / 0.14) 0%,
+      transparent 36%,
+      rgb(6 12 16 / 0.2) 60%,
+      rgb(5 10 14 / 0.48) 100%
+    );
+  }
+  .hero-copy {
+    position: absolute;
+    top: var(--hero-copy-y, 63%);
+    left: var(--hero-copy-x, 50%);
+    width: calc(100% - 48px);
+    transform: translateX(-50%);
+    transition:
+      top 1.8s ease,
+      left 1.8s ease;
+    text-align: center;
+    text-shadow: 0 2px 18px rgb(0 0 0 / 0.35);
+    animation: soft-enter 1.4s ease both;
+  }
+  .hero-copy h1 {
+    font-family: var(--font-serif);
+    font-size: clamp(32px, 3.1vw, 46px);
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  .hero-copy p {
+    margin-top: 12px;
+    font-size: clamp(14px, 1.4vw, 20px);
+    letter-spacing: 0.18em;
+    line-height: 1.7;
+  }
+  .scroll-cue {
+    position: absolute;
+    bottom: 44px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    color: rgb(255 255 255 / 0.7);
+    transition: color 0.2s ease;
+  }
+  .scroll-cue:hover {
+    color: #fff;
+  }
+  .scroll-line {
+    width: 1px;
+    height: 36px;
+    background: linear-gradient(rgb(255 255 255 / 0.7), rgb(255 255 255 / 0.12));
+  }
+  .home-welcome {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 110px 28px 120px;
+    scroll-margin-top: 40px;
+  }
+  .home-welcome h2 {
+    margin: 20px 0 24px;
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .welcome-text {
+    max-width: 620px;
+    color: hsl(var(--ink-soft));
+    line-height: 1.9;
+    font-size: 19px;
+  }
+  .welcome-links {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  @keyframes soft-enter {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @media (max-width: 560px) {
+    .hero-copy {
+      top: var(--hero-copy-y, 60%);
+    }
+    .hero-copy p {
+      max-width: 280px;
+      margin: 14px auto 0;
+    }
+    .scroll-cue {
+      bottom: 28px;
+      font-size: 14px;
+    }
+    .home-welcome {
+      padding: 76px 24px 84px;
+    }
+    .home-welcome h2 {
+      font-size: 32px;
+    }
+    .welcome-text {
+      font-size: 18px;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-photo {
+      transition: none;
+    }
+    .hero-copy {
+      animation: none;
+      transition: none;
+    }
+  }
+</style>

@@ -1,0 +1,68 @@
+---
+import katexStylesheet from 'katex/dist/katex.min.css?url'
+import { getEntry, render } from 'astro:content'
+import type { GetStaticPaths } from 'astro'
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import { projects, type Project } from '@/data/projects'
+import { withBase } from '@/utils'
+export const getStaticPaths = (() =>
+  projects.map((project) => ({
+    params: { slug: project.slug },
+    props: { project }
+  }))) satisfies GetStaticPaths
+interface Props {
+  project: Project
+}
+const { project } = Astro.props
+const source = project.sourceId ? await getEntry('projects', project.sourceId) : undefined
+if (project.sourceId && !source) throw new Error(`Missing migrated project: ${project.sourceId}`)
+const rendered = source ? await render(source) : undefined
+const Content = rendered?.Content
+const index = projects.findIndex((item) => item.slug === project.slug)
+const next = projects[(index + 1) % projects.length]
+---
+
+<BaseLayout
+  title={project.title}
+  description={project.description}
+  stylesheets={rendered?.remarkPluginFrontmatter.hasMath ? [katexStylesheet] : []}
+>
+  <article class="editorial-page project-detail">
+    <a href={withBase('/projects')} class="back-link">
+      ← All projects
+    </a>
+    <header class="page-heading">
+      <h1>{project.title}</h1>
+      {project.context && <p>{project.context}</p>}
+      <div class="detail-links">
+        {project.links.map((link) => (
+          <a class="link-ink" href={link.url} target="_blank" rel="noreferrer">
+            {link.label} ↗
+          </a>
+        ))}
+      </div>
+    </header>
+    <div class="prose prose-fill">
+      {project.paragraphs.map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+      {Content && <Content />}
+      {project.highlights.length > 0 && (
+        <>
+          <h2>My contribution</h2>
+          <ul>
+            {project.highlights.map((highlight) => (
+              <li>{highlight}</li>
+            ))}
+          </ul>
+        </>
+      )}
+    </div>
+    <nav class="next-project" aria-label="Project navigation">
+      <span class="eyebrow">Next project</span>
+      <a href={withBase(`/projects/${next.slug}`)}>
+        {next.title} <span aria-hidden="true">→</span>
+      </a>
+    </nav>
+  </article>
+</BaseLayout>

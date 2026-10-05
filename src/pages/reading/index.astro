@@ -1,0 +1,38 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import { readingList } from '@/data/reading'
+---
+
+<BaseLayout title="Reading" description="Books and films on my list.">
+  <div class="editorial-page">
+    <header class="page-heading">
+      <h1>Reading</h1>
+      <p>I like mostly classics, and a tiny bit of horror and history.</p>
+    </header>
+    {(['Book', 'Film'] as const).map((kind) => (
+      <section class="reading-section" aria-label={kind === 'Book' ? 'Books' : 'Films'}>
+        <h2 class="reading-section-title">{kind === 'Book' ? 'Books' : 'Films'}</h2>
+        <div class="reading-list">
+          {readingList
+            .filter((entry) => entry.kind === kind)
+            .map((entry) => (
+              <article class="reading-row">
+                <p class="eyebrow">{entry.status}</p>
+                <h3>
+                  {entry.url ? (
+                    <a class="link-ink" href={entry.url} target="_blank" rel="noreferrer">
+                      {entry.title} ↗
+                    </a>
+                  ) : (
+                    entry.title
+                  )}
+                </h3>
+                {entry.author && <p>{entry.author}</p>}
+                {entry.note && <p class="reading-note">{entry.note}</p>}
+              </article>
+            ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</BaseLayout>

@@ -1,0 +1,24 @@
+---
+import { config } from '@/site-config'
+
+const server = config.pageview.server
+const path = Astro.url.pathname
+---
+
+{
+  server && (
+    <span class="pv text-sm text-ink-soft" data-server={server} data-path={path}>
+      <span class="i-lucide-eye inline-block size-3.5 align-[-2px]" aria-hidden="true" />
+      <span class="pv-num" data-pageview-value aria-label="views">
+        ···
+      </span>
+      <span class="pv-unit"> views</span>
+    </span>
+  )
+}
+
+<script>
+  import { updatePageview } from '@/utils/pageview'
+
+  void updatePageview(document.querySelector<HTMLElement>('.pv'))
+</script>
